@@ -28,10 +28,31 @@
     <div id="box_login">
         <a id="main-content" href="#main-content" title="主要內容區" accesskey="C" class="accesskey">:::</a>
         <div id="form_login">
+            <h2>所內專區登入</h2>
+            <div id="box_wrong">
+                <!--錯誤訊息-->
+                <!-- <p>帳號 / 密碼輸入錯誤，請重新輸入！</p> -->
+            </div>
+            <form action="#" method="POST">
+                <div class="textinput">
+                    <input type="text" id="name"/>
+                    <label for="name">帳號：</label>
+                </div>
 
+                <div class="textinput">
+                    <input type="password" id="password"/>
+                    <label for="password">密碼：</label>
+                    <div class="input-group-addon" data-action="see-password" data-toggle="password"><i class="glyphicon glyphicon-eye-open"></i></div>
+                </div>
+
+                <input type="button" class="form-send" value="登入" onclick="location.href='zh-tw/search-result.html'"/>
+            </form>
         </div>
     </div>
 </div><!--//end #wrap-->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
+<script src="script/login.js"></script>
 
 </body>         
 </html>
