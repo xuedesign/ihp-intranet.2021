@@ -26,9 +26,9 @@
 *
 * @project    Institute of History and Philology website
 * @Language   Taiwan
-* @Author     tachimoma <hello@xuedesign.tw>
-* @copyright  2020 xuedesign studio
-* @version    v1.0- 202010
+* @Author     ElmoXL <hello@xuedesign.tw>
+* @copyright  2021 xuedesign studio
+* @version    v1.0- 202107
 *=====================================*/
 
 @import url("reset.css");
@@ -103,12 +103,11 @@ header,
     max-width: 1360px;
     margin: 0 auto}
 #hdr-main{ height: 153px}    
-footer{ min-height: 230px}
-#box-ftrdown{background: url(../images/bg_ftr.png) top center}
+footer{ min-height: 200px}
 #ftr-main{ 
     display: flex;
     padding: 30px 0;
-    justify-content: space-between}
+    justify-content:flex-start}
 #container{ 
     padding: 40px 0 60px;
     min-height: 570px}
@@ -136,7 +135,7 @@ footer{ min-height: 230px}
 
 
 /*＝＝＝ 上方區塊 ＝＝＝*/
-h1 a{
+h1{
     display: block;
     float: left;
     width: 400px;
@@ -163,18 +162,19 @@ h1 a{
 #login-info{
     display: block;
     position: absolute;
-    top:50px;
+    top:45px;
     right: 0;
     font-size: 1.8rem;
     line-height: 2.5rem;
     color: #fff}
 #top-links{
     display: block;
-    margin-top: 100px}
+    margin-top: 90px}
 #top-links li{ 
     display: inline;
     font-size: 1.7rem;
-    line-height: 2.5rem}
+    line-height: 2.5rem;
+    color: #fff;}
 #top-links li a,
 #top-links li a:valid{ 
     color: #fff; 
@@ -184,9 +184,7 @@ h1 a{
     text-decoration: underline}
 #top-links li:nth-child(2)::after,
 #top-links li:nth-child(3)::after,
-#top-links li:nth-child(4)::after,
-#top-links li:nth-child(5)::after,
-#top-links li:nth-child(6)::after{
+#top-links li:nth-child(4)::after{
     content: "|";
     padding: 0 8px;
     color: #fff}
@@ -300,6 +298,7 @@ nav{
 #box-copyright span{
     padding-left: 15px}
 #box-ftrdown{
+    background: url(../images/bg_ftr.png) top center;
     font-size: 1.5rem;
     line-height: 3.5rem}
 #box-ftrdown a,
@@ -314,47 +313,20 @@ nav{
     display: block;
     width: 322px;
     height: 78px;
-    margin-bottom: 18px;
+    margin: 0 80px 18px 0;
     background: url(../images/down-LOGO.svg) no-repeat;
     background-size: cover;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden}
-#ftrdown-left a:nth-child(2)::after,
-#ftrdown-left a:nth-child(3)::after{
-    content: "|";
-    padding: 0 5px}
 
-.mid-1{padding-top: 25px}
+.mid-1{padding-top: 12px}
 .mid-1 li:nth-child(2),
 .mid-1 li:nth-child(3),
 .mid-1 li:nth-child(4),
 .mid-2 li{ 
     display: inline;
     padding-right: 8px}
-
-#ftrdown-right h3{ 
-    font-weight: normal;
-    padding-top: 25px}
-.icon-fb,
-.icon-twitter{
-    display: inline-block;
-    width: 38px;
-    height: 38px;
-    opacity: .8;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    background-size: cover;
-    vertical-align: middle}
-.icon-fb:hover,
-.icon-twitter:hover{ opacity: 1;}
-.icon-fb{ background: url(../images/icon-fb.svg) no-repeat}
-.icon-twitter{ background: url(../images/icon-twitter.svg) no-repeat}
-.icon-accessibility{
-    height: 34px;
-    width: auto;
-    vertical-align: middle}
 /*
 =====================================
 按鈕設定
@@ -390,7 +362,7 @@ nav{
     padding: 15px 10px}
 .btn-s{ 
     width: 50px;
-    padding: 1px 8px}
+    padding: 3px 10px}
 
 .btn_send,
 .btn_send:visited,
@@ -409,6 +381,10 @@ nav{
     opacity: .8;
     width: 60px;
     padding: 1px 8px}
+.btn-logout,
+.btn-logout:visited{
+    padding: 3px 10px
+}
 .btn_send:hover,
 .btn-logout:hover{
     opacity: 1;

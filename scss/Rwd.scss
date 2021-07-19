@@ -26,9 +26,9 @@
 *
 * @project    Institute of History and Philology website
 * @Language   Taiwan
-* @Author     tachimoma <hello@xuedesign.tw>
-* @copyright  2020 xuedesign studio
-* @version    v1.0- 202010
+* @Author     ElmoXL <hello@xuedesign.tw>
+* @copyright  2021 xuedesign studio
+* @version    v1.0- 202107
 *
 **/
 
@@ -109,13 +109,13 @@
     padding: 5px 15px 0;
     border-bottom: 2px solid #342D2D;
     box-shadow: 0 2px 15px #4e4545}
-#mlogo a,
+#mlogo,
 #mmenu{
     display: block;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden}    
-#mlogo a{
+#mlogo{
     width: 227px;
     height: 55px;
     background: url(../images/LOGO.svg) no-repeat;
@@ -584,14 +584,6 @@ header,
 .info-main h2{ 
     font-size: 1.8rem;
     line-height: 3rem}  
-.mid-1,
-.mid-2{ padding: 0 25px;}    
-.mid-1 li:nth-child(1),
-.mid-1 li:nth-child(2),
-.mid-1 li:nth-child(3),
-.mid-1 li:nth-child(4),
-.mid-2 li{
-    display: block}
 .box-social{ margin-top: 25px}
 .director-info span,
 .advisory-info span{
