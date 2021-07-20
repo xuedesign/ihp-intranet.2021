@@ -256,14 +256,14 @@ h1{display:none;}
     h1{
         display: inline-block;
         float: left;
-        width: 400px;
-        height: 97px;
+        width: 310px;
+        height: 55px;
         background: url(../images/LOGO.svg) no-repeat;
         background-size: cover;
         text-indent: 100%;
         white-space: nowrap;
         overflow: hidden;
-        margin: 27px 0 0 30px;
+        margin: 8px 0 0 30px;
     }
     
     #box_login{
@@ -275,10 +275,11 @@ h1{display:none;}
         border-radius: 0;
     }
     #form_login{
-        top:150px;
+        top:70px;
         right:0;
         width: 100%;
         height: 100vh;
+        border-top: 2px solid #342D2D;
         border-radius: 0 0 20px 20px;
         padding: 20px 10% 30px;
     }
@@ -287,23 +288,9 @@ h1{display:none;}
     }
 }
 
-@media (max-width:880px) {
-    h1{
-        width: 330px;
-        height: 80px;
-        margin: 27px 0 0 30px;
-    }
-}
+
 
 @media (max-width: 455px) {
-    h1{
-        width: 247px;
-        height: 60px;
-        margin: 15px 0 0 30px;
-    }
-    #form_login{
-        top:100px;
-    }
     #box_wrong p{
         width:95%;
         padding: 8px;
@@ -314,5 +301,12 @@ h1{display:none;}
     .textinput input.filled ~ label,
     .textinput input:focus ~ label {
         top:-30px}
+}
+
+@media(max-width:321px){
+    h1{
+        width: 220px;
+        height: 39px;
+        margin-top: 12px}     
 }
 
