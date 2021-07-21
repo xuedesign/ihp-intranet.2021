@@ -183,8 +183,7 @@ h1{
     color: lightpink;
     text-decoration: underline}
 #top-links li:nth-child(2)::after,
-#top-links li:nth-child(3)::after,
-#top-links li:nth-child(4)::after{
+#top-links li:nth-child(3)::after{
     content: "|";
     padding: 0 8px;
     color: #fff}

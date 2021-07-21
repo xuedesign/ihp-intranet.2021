@@ -80,9 +80,9 @@
 .book-price{
     width: 25%}
 h1{
-    width: 440px;
-    height: 78px;
-    margin-top: 27px}             
+    width: 480px;
+    height: 85px;
+    margin-top: 30px}             
 }
 
 @media (max-width:1300px) {
@@ -90,10 +90,6 @@ h1{
     margin: 0 6px 30px}
 .book-thumbnail span{
     height: 200px}
-h1{
-    width: 480px;
-    height: 85px;
-    margin-top: 27px} 
 #box-top{
     width: 48%;}    
 }    
@@ -126,10 +122,9 @@ h1{
     white-space: nowrap;
     overflow: hidden}    
 #mlogo{
-    width: 310px;
+    width: 331px;
     height: 55px;
-    background: url(../images/LOGO.svg) no-repeat;
-    background-size: cover}
+    background: url(../images/LOGO.png) no-repeat;background-size:contain;}
 #mmenu{
     position: absolute;
     top: 16px;
