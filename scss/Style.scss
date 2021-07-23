@@ -471,6 +471,7 @@ nav{
 #breadcrumb{ 
     font-size: 1.5rem;
     line-height: 2.5rem}
+#breadcrumb p{ display: none}
 #breadcrumb a,
 #breadcrumb a:visited{
     color: #3e3e3e;
@@ -478,7 +479,6 @@ nav{
 #breadcrumb a:hover{
     color: #941E2D;
     text-decoration: underline}
-#breadcrumb span{ display: none}
 
 /*側邊選單標題*/
 .redarrow{

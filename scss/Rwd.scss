@@ -302,7 +302,12 @@ header,
 .book-time{
     width: 14%}
 .book-price{
-    width: 31.5%}            
+    width: 31.5%}
+#breadcrumb p{ 
+    display: inline-block}
+#breadcrumb span::before{
+    content: "|";
+    padding: 0 10px}            
 }
 
 /*
@@ -316,7 +321,6 @@ header,
     line-height: 3rem}
 .back-to-top-wrapper{ display: none}
 
-#breadcrumb span{ display: inline-block}
 #container-subnav{ display: none}
 #container-main{ 
     float: none;
@@ -446,6 +450,8 @@ header,
 =====================================
 */
 @media (max-width: 615px) { /*573*/
+#container{ 
+    padding: 20px 0 60px}
 #ftr-main{ padding: 30px 0 60px}    
 .pastdirector-list{
     width: 49%}
@@ -573,8 +579,16 @@ header,
 .pub-list li{
     padding: 0;}
 #book-info .taglist{
-    padding-top: 15px;
-}     
+    padding-top: 15px}
+#breadcrumb .accesskey{
+    display: block;
+    margin-bottom: 8px}
+#breadcrumb span{
+    display: block;
+    width: 100%}
+#breadcrumb span::before{
+    content: " ";
+    padding: 0} 
 }
     
 /*
@@ -606,11 +620,6 @@ header,
     padding-top: 8px}
 .other-links span{
     display: block}
-#breadcrumb .accesskey{
-    display: block;
-    margin-bottom: 8px}
-#container{ 
-    padding: 20px 0 60px}
 #page-control{
     width: 100%}
 .event-time,
@@ -847,7 +856,14 @@ header,
 .event-speak{ 
     display: block;
     margin: 0 0 15px 0;}
+.mid-1{padding:25px}
+.mid-1 li:first-child,
+.mid-1 li:nth-child(2),
+.mid-1 li:nth-child(3),
+.mid-1 li:nth-child(4){
+    display:block}
 }
+
 
 @media(max-width:321px){
     #mlogo{
