@@ -174,8 +174,6 @@ header,
     width: 84%}
 .event-option{
     width: 15%}
-#bulletin-option{
-    width: 50%}
 .positions-type{ 
     width: 25%}
 .positions-item h3{ 
@@ -335,16 +333,6 @@ header,
     margin-bottom: 15px}
 #bulletin-main{
     display: block}
-#bulletin-option{
-    width: 60%}
-#bulletin-poster{
-    display: block;
-    width: 60%;
-    margin-bottom: 20px;}
-.poster-left > #bulletin-poster{
-    margin-right: 0}
-.poster-right > #bulletin-poster{
-    margin-left: 0}
 .awards-item li span{
     display: block}
 .awards-item li,
@@ -476,11 +464,6 @@ header,
 .positions-type{ width: 30%}
 .positions-time{ width: 100%}
 .positions-item h3{ width: 65%}
-#bulletin-title{
-    display: block}
-#bulletin-option{
-    width: 100%;
-    margin-top: 20px}
 .pic_fsnl{
     float: none;
     width: 100%;
@@ -629,7 +612,7 @@ header,
 .event-place span{
     display: block}
 .toolbar-event-type{
-    display: block;
+    /* display: block; */
     margin-bottom: 10px}
 .positions-type,
 .positions-item h3{ width: 100%}
@@ -832,8 +815,8 @@ header,
     margin-left: 15px}
 .visibility{
     display: none} 
-#toolbar-search label{ 
-    display:none}
+/* #toolbar-search label{ 
+    display:none} */
 .asiamojor-note{
     padding-left: 39px; 
     text-indent: -28px}

@@ -845,6 +845,9 @@ summary.nowin{
     width: 100%;
     margin-top: 30px;
     padding: 15px 0}
+#toolbar-search{
+    justify-content:flex-end
+}
 
 .event-item,
 .news-item{
@@ -977,35 +980,17 @@ summary.nowin{
     padding: 4px 8px}
 
 #bulletin-title{
-    display: flex;
-    justify-content: space-around;
+    display: block;
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
     margin: 30px 0 40px;
     padding: 15px 0}
-#bulletin-title h3{
-    width: 100%;
-    padding-right: 15px}
-#bulletin-option{
-    width: 35%}
-#bulletin-option .mybtn{
-    margin: 0 0 0 10px;
-    padding: 2px 10px}
-/*#bulletin-subtitle{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 10px 0 40px}*/
 
 #bulletin-main{
     display: flex;
     width: 100%;
     justify-content: flex-start;
     padding-bottom: 30px}
-.poster-left{
-    flex-direction: row}
-.poster-right{
-    flex-direction: row-reverse}
 #bulletin-article{
     width: 100%}
 #bulletin-article p{
@@ -1015,17 +1000,6 @@ summary.nowin{
     max-width: 80%;
     height: auto;
     margin: 20px}
-
-#bulletin-poster{
-    width: 50%}
-#bulletin-poster img{
-    display: block;
-    width: 100%;
-    height: auto}
-.poster-left > #bulletin-poster{
-    margin-right: 40px}
-.poster-right > #bulletin-poster{
-    margin-left: 40px}
 
 #bulletin-annex{
     margin-bottom: 30px}
@@ -1058,6 +1032,16 @@ summary.nowin{
 #bulletin-article a:visited{
     color: #a7a6a6;
     text-decoration: none}
+
+#bulletin-article table{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+#bulletin-article table td{
+    padding: 5px;
+    border:1px solid #444444
+}    
 .btn-back,
 .btn-bulletin-back{
     padding: 2px 10px;
@@ -1846,8 +1830,7 @@ table.bt.bt--no-header tbody td::before {
     opacity: .5;}
 #bookbar-search .toolbar-btn:hover{
     opacity: .9}
-#bookbar-search label,
-#toolbar-search label{ display:none}  
+#bookbar-search label{ display:none}  
 
 #publications-main > .two-axis a{
     color:#333;
