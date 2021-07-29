@@ -41,9 +41,12 @@
                 </div>
 
                 <div class="textinput">
-                    <input type="password" id="password"/>
+                    <input type="password" id="password" class="pass"/>
                     <label for="password">密碼：</label>
-                    <div class="input-group-addon" data-action="see-password" data-toggle="password"><i class="glyphicon glyphicon-eye-open"></i></div>
+                    <div class="pass-view">
+                        <i class="far fa-eye-slash"></i>
+                        <i class="far fa-eye" style="display: none;"></i>
+                    </div>
                 </div>
 
                 <input type="button" class="form-send" value="登入" onclick="location.href='news/list-news-all.html'"/>

@@ -33,7 +33,7 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap");
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css");
 
 /*＝＝＝ 基本設定 ＝＝＝*/
 html{ 
@@ -178,19 +178,21 @@ h1{display:none;}
     font-size: 1.8rem;
     color:#ADADAD}
 
-.input-group-addon{
+.pass-view{
     position:absolute;
+    top:13px;
     right:10px;
     background-color:#fff;
     border-color: #fff;
 }
 
-.input-group-addon:hover{
+.pass-view:hover{
     cursor: pointer;
 }
 
-.input-group-addon i{
-    font-size:2rem
+.pass-view i{
+    font-size:2rem;
+    color: #3e3e3e
 }
 
 .form-send{

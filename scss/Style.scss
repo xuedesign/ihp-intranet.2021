@@ -110,7 +110,7 @@ footer{ min-height: 200px}
     justify-content:flex-start}
 #container{ 
     padding: 40px 0 60px;
-    min-height: 570px}
+    min-height: 670px}
 #container-one,
 #container-two{ padding-top: 20px}
 #container-subnav,
@@ -582,7 +582,7 @@ summary.nowin{
     vertical-align: middle;
     margin-right: 10px}
 #toolbar{ 
-    width: 60%;
+    width: 50%;
     text-align: right}
 #toolbar li{
     display: inline-block;
@@ -1079,6 +1079,31 @@ summary.nowin{
     float: left}
 #down-option> a.btn-bulletin-back{
     float: right}
+
+.rule-item{
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+}
+.rule-item li{
+    font-family: "Noto Serif TC";
+    font-weight: 600;
+    line-height: 3rem;
+    /* font-size: 2rem; */
+    text-decoration: none;
+    padding: 15px 0;
+    border-bottom: 1px dashed #333;
+    list-style: decimal;
+}
+.rule-item li a,
+.rule-item li a:visited{
+    color: #333;
+    text-decoration:none;
+}
+.rule-item li a:hover{
+    color: #941E2D;
+    text-decoration:none
+}    
 
 /*
 ========== 學術資源==========

@@ -1,3 +1,3 @@
 $(".textinput input").change(function(){""!=$(this).val()?$(this).addClass("filled"):$(this).removeClass("filled")});
 
-$('[data-action="see-password"]').on("click",function(){el="#"+$(this).attr("data-toggle"),"password"==$(el).attr("type")?($(this).find("i").addClass("glyphicon-eye-close"),$(el).attr("type","text")):($(this).find("i").removeClass("glyphicon-eye-close"),$(el).attr("type","password")),$(el).focus()});
+$(document).on("click",".pass-view",function(s){var i=$(this).children(".fa-eye-slash"),e=$(this).children(".fa-eye"),t=$(this).siblings(".pass");i.is(":visible")?(e.show(),i.hide(),t.attr("type","text")):(e.hide(),i.show(),t.attr("type","password"))});

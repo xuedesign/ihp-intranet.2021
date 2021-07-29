@@ -85,13 +85,16 @@ h1{
     margin-top: 30px}             
 }
 
-@media (max-width:1300px) {
+@media (max-width:1400px) {
 .book-thumbnail li{
     margin: 0 6px 30px}
 .book-thumbnail span{
     height: 200px}
 #box-top{
-    width: 48%;}    
+    width: 48%;}
+#toolbar{
+    width: 45%;
+}    
 }    
 
 /*
@@ -845,6 +848,8 @@ header,
 .mid-1 li:nth-child(3),
 .mid-1 li:nth-child(4){
     display:block}
+.rule-item{
+    width: 80%}
 }
 
 
