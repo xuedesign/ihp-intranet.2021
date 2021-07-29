@@ -1159,7 +1159,7 @@ summary.nowin{
 #box-people{
     display: block;
     width: 100%;
-    margin-bottom: 30px}
+    margin: 30px 0}
 #people-pagelink{
     display: flex;
     flex-wrap: wrap;
@@ -1238,6 +1238,11 @@ summary.nowin{
     -webkit-box-orient:vertical}*/
 .staff-team{
     width: 10%}
+.project-host{
+    width:18%;
+    text-align: center}
+.project-date{
+    width:25%}
 
 .two-axis tr:nth-child(even),
 .catlog-table tr:nth-child(even){
@@ -1358,7 +1363,7 @@ table.bt.bt--no-header tbody td::before {
 .two-axis td:first-of-type{
     border-bottom: 1px solid #5c1621}
 .bt-content{
-    padding: 2px 8px}
+    padding: 2px 0 2px 5px}
 .staff-contact{
     word-break: break-all}
 }
