@@ -1573,15 +1573,11 @@ table.bt.bt--no-header tbody td::before {
     color: #a7a6a6;
     text-decoration: none}
 
-.awards-item,
-.periodical-item,
-.faq{
+.periodical-item{
     display: block;
     position: relative;
-    margin: 15px 0 30px}
-.awards-item summary,
-.periodical-item summary,
-.faq summary{
+    margin: 30px 0}
+.periodical-item summary{
     font-family: "Noto Serif TC";
     font-weight: 600;
     font-size: 2.3rem;
@@ -1590,14 +1586,8 @@ table.bt.bt--no-header tbody td::before {
     color: #3E3E3E;
     border-bottom: 1px solid #C4C4C4;
     list-style: none;}
-.awards-item summary:hover,
-.periodical-item summary:hover,
-.faq summary:hover{
+.periodical-item summary:hover{
     cursor: pointer}
-.awards-item summary::before{
-    content:url(../images/pot-list.svg);
-    vertical-align: middle;
-    margin: 0 15px 0 28px}
 .periodical-item summary::before{
     display: inline-block;
     content:url(../images/pot-book.svg);
@@ -1605,19 +1595,9 @@ table.bt.bt--no-header tbody td::before {
     height: 19px;
     vertical-align: sub;
     margin: 0 15px 0 28px}
-.faq summary::before{
-    content:url(../images/pot-faq.svg);
-    vertical-align: middle;
-    margin: 0 15px 0 28px}
-.awards-item summary::-webkit-details-marker{
-    display: none}
 .periodical-item summary::-webkit-details-marker{
     display: none}
-.faq summary::-webkit-details-marker{
-    display: none}
-.awards-item summary:after,
-.periodical-item summary:after,
-.faq summary:after{
+.periodical-item summary:after{
     content: "+";
     color: #929292;
     position: absolute;
@@ -1627,21 +1607,31 @@ table.bt.bt--no-header tbody td::before {
     right: 0;
     transform-origin: center;
     transition: 200ms linear}
-.awards-item[open] summary:after,
-.periodical-item[open] summary:after,
-.faq[open] summary:after{
+.periodical-item[open] summary:after{
     transform: rotate(45deg);
     font-size: 3rem}
 
-.awards-item ul,
-.periodical-item ul{
-    padding: 15px 15px 15px 25px}
-.awards-item li span{
-    color: #af8585;
-    /* font-weight: bold; */
-    padding-right: 15px}
-
-
+/*
+========== 電子報 ==========
+*/
+.epaper-list{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 0 15px 10px
+}
+.epaper-list li{
+    margin: 0 5px 30px ;
+}
+.epaper-list li a,
+.epaper-list li a:visited{
+    color: #3e3e3e;
+    text-decoration: none
+}
+.epaper-list li a:hover{
+    color: #941E2D;
+    text-decoration: underline
+}
 
 /*
 ========== 各類學術補助 ==========
