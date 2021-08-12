@@ -693,7 +693,7 @@ summary.nowin{
     border-bottom: 1px solid #e1e1e1;
     width: 100%;
     margin-top: 30px;
-    padding: 15px 0}
+    padding: 15px 20px}
 .director-title{
     border-top: none}
 #departments-title p{ padding: 0}
@@ -1631,6 +1631,56 @@ table.bt.bt--no-header tbody td::before {
 .epaper-list li a:hover{
     color: #941E2D;
     text-decoration: underline
+}
+#main-epaper{
+    display: block;
+    width: 100%;
+    padding: 30px}
+#main-epaper img{
+    display: block;
+    max-width: 100%;
+    margin: 8px auto;
+}
+#main-epaper h5{
+    font-family: "Noto Serif TC";
+    font-weight: 600;
+    font-size:2rem;
+    color: #941E2D;
+}
+#main-epaper h5::before{
+    content:url(../images/icon-epaper.svg);
+    margin-right: 10px;
+    vertical-align: top;
+}
+#main-epaper ul{
+    margin-bottom: 30px;
+    padding: 20px 50px;
+    text-align:justify
+}
+#main-epaper li{
+    list-style:none;
+    padding: 8px 0;
+    border-bottom: 1px dashed #bebebe;
+}
+#main-epaper li::before {
+    content: "\2022";
+    color: rgb(141, 140, 140); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 2.5rem; 
+    margin-left: -2.5rem; 
+  }
+#main-epaper li a{
+    color: #b94545;
+    text-decoration: none;
+}
+#main-epaper li a:visited{
+    color: #929292;
+    text-decoration: underline;
+}
+#main-epaper li a:hover{
+    color: #941E2D;
+    text-decoration: underline;
 }
 
 /*
