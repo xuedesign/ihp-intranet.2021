@@ -1163,10 +1163,6 @@ summary.nowin{
     display: block;
     width: 100%;
     margin: 30px 0}
-#people-pagelink{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 15px 0}
 #box-people .two-axis a{
     color: #3e3e3e;
     font-weight: bold;
@@ -1180,18 +1176,6 @@ summary.nowin{
     text-decoration: underline;
     font-weight: bold}
 
-#box-people a.mybtn,
-#box-people a.mybtn:visited{
-    color: #4d4d4d;
-    text-decoration: none;
-    margin-right: 8px}
-#box-people a.mybtn:hover,
-#box-people a.now-select,
-#box-people a.now-select:visited{
-    background: #615252;
-    color: #fff;
-    text-decoration: none;
-    transition-duration: .5s}
 #box-people a.disabled,
 #box-people a.disabled:hover{
     border:1px solid #a1a1a1;
@@ -1632,7 +1616,8 @@ table.bt.bt--no-header tbody td::before {
     color: #941E2D;
     text-decoration: underline
 }
-#main-epaper{
+#main-epaper,
+#main-form{
     display: block;
     width: 100%;
     padding: 30px}
@@ -1641,7 +1626,8 @@ table.bt.bt--no-header tbody td::before {
     max-width: 100%;
     margin: 8px auto;
 }
-#main-epaper h5{
+#main-epaper h5,
+#main-form h5{
     font-family: "Noto Serif TC";
     font-weight: 600;
     font-size:2rem;
@@ -1652,17 +1638,25 @@ table.bt.bt--no-header tbody td::before {
     margin-right: 10px;
     vertical-align: top;
 }
-#main-epaper ul{
+#main-form h5::before{
+    content:url(../images/icon-paste-light.svg);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#main-epaper ul,
+#main-form ul{
     margin-bottom: 30px;
     padding: 20px 50px;
     text-align:justify
 }
-#main-epaper li{
+#main-epaper li,
+#main-form li{
     list-style:none;
     padding: 8px 0;
     border-bottom: 1px dashed #bebebe;
 }
-#main-epaper li::before {
+#main-epaper li::before,
+#main-form li::before{
     content: "\2022";
     color: rgb(141, 140, 140); 
     font-weight: bold; 
@@ -1670,15 +1664,18 @@ table.bt.bt--no-header tbody td::before {
     width: 2.5rem; 
     margin-left: -2.5rem; 
   }
-#main-epaper li a{
+#main-epaper li a,
+#main-form li a{
     color: #b94545;
     text-decoration: none;
 }
-#main-epaper li a:visited{
+#main-epaper li a:visited,
+#main-form li a:visited{
     color: #929292;
     text-decoration: underline;
 }
-#main-epaper li a:hover{
+#main-epaper li a:hover,
+#main-form li a:hover{
     color: #941E2D;
     text-decoration: underline;
 }
@@ -1760,6 +1757,25 @@ table.bt.bt--no-header tbody td::before {
     vertical-align: top;
 }
 
+/*
+========== 表單下載 ==========
+*/
+#form-pagelink{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0}
+#box-form a.mybtn,
+#box-form a.mybtn:visited{
+    color: #4d4d4d;
+    text-decoration: none;
+    margin-right: 8px}
+#box-form a.mybtn:hover,
+#box-form a.now-select,
+#box-form a.now-select:visited{
+    background: #615252;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: .5s}
 
 
 @media all and (-ms-high-contrast:none) {

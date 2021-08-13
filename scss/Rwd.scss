@@ -847,10 +847,12 @@ header,
     display:block}
 .rule-item{
     width: 80%}
-#main-epaper{
+#main-epaper,
+#main-form{
     padding: 30px 0;
 }
-#main-epaper ul{
+#main-epaper ul,
+#main-form ul{
     padding: 20px 30px
 }
 }
