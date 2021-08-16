@@ -925,7 +925,6 @@ summary.nowin{
 .event-info h3{
     padding-bottom: 15px}
 .event-info h3 a,
-.news-info h3 a,
 .positions-item h3 a,
 #bulletin-title h3{
     font-family: "Noto Serif TC";
@@ -934,6 +933,17 @@ summary.nowin{
     font-size: 2.2rem;
     text-decoration: none;
     color: #b94545}
+.news-info h3{
+    font-family: "Noto Serif TC";
+    font-weight: 600;
+    line-height: 2.8rem;
+   /*  font-size: 2.2rem; */
+   padding: 10px 0 0 0;
+}
+.news-info h3 a{
+    text-decoration: none;
+    color: #b94545;
+    }
 .event-info h3:hover,
 .news-info h3 a:hover,
 .positions-item h3 a:hover{
@@ -1561,6 +1571,11 @@ table.bt.bt--no-header tbody td::before {
     display: block;
     position: relative;
     margin: 30px 0}
+.form-subitem{
+    display: block;
+    position: relative;
+    width:95%;
+    margin: 10px auto 30px auto}
 .periodical-item summary{
     font-family: "Noto Serif TC";
     font-weight: 600;
@@ -1569,8 +1584,19 @@ table.bt.bt--no-header tbody td::before {
     letter-spacing: 1px;
     color: #3E3E3E;
     border-bottom: 1px solid #C4C4C4;
-    list-style: none;}
-.periodical-item summary:hover{
+    list-style: none}
+.form-subitem summary{
+    font-family: "Noto Serif TC";
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 4rem;
+    letter-spacing: 1px;
+    color: #3E3E3E;
+    border-bottom: 1px solid #C4C4C4;
+    list-style: none;
+    padding-left: 10px;}
+.periodical-item summary:hover,
+.form-subitem summary:hover{
     cursor: pointer}
 .periodical-item summary::before{
     display: inline-block;
@@ -1579,9 +1605,12 @@ table.bt.bt--no-header tbody td::before {
     height: 19px;
     vertical-align: sub;
     margin: 0 15px 0 28px}
-.periodical-item summary::-webkit-details-marker{
+
+.periodical-item summary::-webkit-details-marker,
+.form-subitem summary::-webkit-details-marker{
     display: none}
-.periodical-item summary:after{
+.periodical-item summary:after,
+.form-subitem summary:after{
     content: "+";
     color: #929292;
     position: absolute;
@@ -1591,7 +1620,8 @@ table.bt.bt--no-header tbody td::before {
     right: 0;
     transform-origin: center;
     transition: 200ms linear}
-.periodical-item[open] summary:after{
+.periodical-item[open] summary:after,
+.form-subitem[open] summary:after{
     transform: rotate(45deg);
     font-size: 3rem}
 
@@ -1626,12 +1656,21 @@ table.bt.bt--no-header tbody td::before {
     max-width: 100%;
     margin: 8px auto;
 }
-#main-epaper h5,
+#main-epaper h5{
+    font-family: "Noto Serif TC";
+    font-weight: 600;
+    font-size:2rem;
+    color: #941E2D
+}
 #main-form h5{
     font-family: "Noto Serif TC";
     font-weight: 600;
     font-size:2rem;
     color: #941E2D;
+    margin-top: 45px;
+}
+#main-form h5:nth-child(1){
+    margin-top:0
 }
 #main-epaper h5::before{
     content:url(../images/icon-epaper.svg);
@@ -1643,9 +1682,12 @@ table.bt.bt--no-header tbody td::before {
     margin-right: 10px;
     vertical-align: middle;
 }
-#main-epaper ul,
-#main-form ul{
+#main-epaper ul{
     margin-bottom: 30px;
+    padding: 20px 50px;
+    text-align:justify
+}
+#main-form ul{
     padding: 20px 50px;
     text-align:justify
 }
@@ -1664,9 +1706,13 @@ table.bt.bt--no-header tbody td::before {
     width: 2.5rem; 
     margin-left: -2.5rem; 
   }
-#main-epaper li a,
-#main-form li a{
+#main-epaper li a{
     color: #b94545;
+    text-decoration: none;
+}
+#main-form li a{
+    /* color: #944f4f; */
+    color: #333;
     text-decoration: none;
 }
 #main-epaper li a:visited,
