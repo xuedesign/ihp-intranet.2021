@@ -140,7 +140,7 @@ h1{
     float: left;
     width: 547px;
     height: 97px;
-    background: url(../images/LOGO.svg) no-repeat;
+    background: url(../images/intranet-LOGO.svg) no-repeat;
     background-size: cover;
     text-indent: 100%;
     white-space: nowrap;
@@ -1791,7 +1791,7 @@ table.bt.bt--no-header tbody td::before {
     list-style: circle;
 }
 .item-grant li span{
-    font-weight: bold;
+    /* font-weight: bold; */
     letter-spacing: 1px;
     color: #502C2C;
 }
