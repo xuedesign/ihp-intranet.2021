@@ -183,7 +183,9 @@ h1{
     color: lightpink;
     text-decoration: underline}
 #top-links li:nth-child(2)::after,
-#top-links li:nth-child(3)::after{
+#top-links li:nth-child(3)::after,
+#top-links li:nth-child(4)::after,
+#top-links li:nth-child(5)::after{
     content: "|";
     padding: 0 8px;
     color: #fff}
@@ -1095,7 +1097,7 @@ summary.nowin{
 
 .rule-item{
     display: block;
-    width: 90%;
+    width: 96%;
     margin: 15px auto;
 }
 .rule-item li{
@@ -1106,7 +1108,7 @@ summary.nowin{
     text-decoration: none;
     padding: 15px 0;
     border-bottom: 1px dashed #333;
-    list-style: decimal;
+    /* list-style: decimal; */
 }
 .rule-item li a,
 .rule-item li a:visited{
@@ -1629,14 +1631,19 @@ table.bt.bt--no-header tbody td::before {
 ========== 電子報 ==========
 */
 .epaper-list{
-    display:flex;
-    flex-wrap: wrap;
+    display:block;
     width: 100%;
-    padding: 30px 0 15px 10px
+    padding: 30px 0 15px 25px
 }
 .epaper-list li{
-    margin: 0 5px 30px ;
+    display:inline-block;
+    width: 23%;
+    margin: 0 5px 30px
 }
+.epaper-list li::before{
+    content: '·';
+    font-size: 2rem;
+    color: #581a23}
 .epaper-list li a,
 .epaper-list li a:visited{
     color: #3e3e3e;
@@ -1684,11 +1691,11 @@ table.bt.bt--no-header tbody td::before {
 }
 #main-epaper ul{
     margin-bottom: 30px;
-    padding: 20px 50px;
+    padding: 20px 30px;
     text-align:justify
 }
 #main-form ul{
-    padding: 20px 50px;
+    padding: 20px 30px;
     text-align:justify
 }
 #main-epaper li,
@@ -1697,7 +1704,7 @@ table.bt.bt--no-header tbody td::before {
     padding: 8px 0;
     border-bottom: 1px dashed #bebebe;
 }
-#main-epaper li::before,
+/* #main-epaper li::before,
 #main-form li::before{
     content: "\2022";
     color: rgb(141, 140, 140); 
@@ -1705,7 +1712,7 @@ table.bt.bt--no-header tbody td::before {
     display: inline-block; 
     width: 2.5rem; 
     margin-left: -2.5rem; 
-  }
+  } */
 #main-epaper li a{
     color: #b94545;
     text-decoration: none;

@@ -309,7 +309,9 @@ header,
     display: inline-block}
 #breadcrumb span::before{
     content: "|";
-    padding: 0 10px}            
+    padding: 0 10px} 
+.epaper-list li{
+    width: 30%}           
 }
 
 /*
@@ -428,7 +430,6 @@ header,
     padding: 8px 15px}
 #book-info .taglist a{
     margin-bottom: 15px}
-
 }
 
 /*
@@ -570,7 +571,9 @@ header,
     width: 100%}
 #breadcrumb span::before{
     content: " ";
-    padding: 0} 
+    padding: 0}
+.epaper-list li{
+    width: 45%} 
 }
     
 /*
@@ -846,15 +849,16 @@ header,
 .mid-1 li:nth-child(4){
     display:block}
 .rule-item{
-    width: 80%}
+    width: 95%}
 #main-epaper,
 #main-form{
-    padding: 30px 0;
-}
+    padding: 30px 0;}
 #main-epaper ul,
 #main-form ul{
-    padding: 20px 30px
-}
+    padding: 20px 30px}
+.epaper-list li{
+    width: 100%;
+    margin: 0 0 20px 8px}
 }
 
 
