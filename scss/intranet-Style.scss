@@ -1695,7 +1695,7 @@ table.bt.bt--no-header tbody td::before {
     text-align:justify
 }
 #main-form ul{
-    padding: 20px 30px;
+    padding: 20px 52px;
     text-align:justify
 }
 #main-epaper li,
@@ -1704,7 +1704,7 @@ table.bt.bt--no-header tbody td::before {
     padding: 8px 0;
     border-bottom: 1px dashed #bebebe;
 }
-/* #main-epaper li::before,
+/* #main-epaper li::before */
 #main-form li::before{
     content: "\2022";
     color: rgb(141, 140, 140); 
@@ -1712,7 +1712,7 @@ table.bt.bt--no-header tbody td::before {
     display: inline-block; 
     width: 2.5rem; 
     margin-left: -2.5rem; 
-  } */
+  }
 #main-epaper li a{
     color: #b94545;
     text-decoration: none;
