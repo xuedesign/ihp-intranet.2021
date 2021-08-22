@@ -1,0 +1,230 @@
+<table style="font-size:14px;">
+  <tr>
+    <td>
+                             
+        <span style="margin-left:10px;">系統管理員</span>
+            </td>
+  </tr>
+  <tr><td>&nbsp;</td></tr>
+  <tr>
+    <td style="padding-left:10px;">
+    
+      <form name="form1" method="POST" action="callFilter_save.php">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td style="font-size:13px;">
+                  <span><input type="radio" name="filter" value="b" checked>地點查詢</span>
+                  <span><input type="radio" name="filter" value="c" onclick="fChange('c');">單位查詢</span>  
+                </td>
+              </tr>
+              <tr>
+                <td style="font-size:13px; padding-top:5px;">
+                  <span>
+                                    <select id="B" name="B" onchange="selectB();">
+                    <option value="">選擇建築物</option>
+                                        <option value="1">文物陳列館</option>
+                                        <option value="2">研究大樓</option>
+                                        <option value="3">圖書館</option>
+                                        <option value="4">考古館</option>
+                                      </select>   
+                  </span>     
+                  <span style="margin-left:5px; font-size:13px;">
+                                      <select id="F" name="F">
+                      <option value="">選擇樓層</option>
+                    </select>
+                                      <script type="text/javascript">
+                  function selectB() {
+                    var B = document.getElementById("B");
+                    location.href = "callFilter.php?sType=c&filter=b&B=" + B.value + "&F=&C=";
+                  }
+                  function selectF() {
+                    var F = document.getElementById("F");
+                    location.href = "callFilter.php?sType=c&filter=b&B=&F=" + F.value + "&C=";
+                  }
+                  function fChange(f) {
+                    switch (f) {
+                      case 'b':
+                        location.href = "callFilter.php?sType=c&filter=b&B=&F=&C=";
+                      break;
+                      case 'c':
+                        location.href = "callFilter.php?sType=c&filter=c&B=&F=&C=";
+                      break;
+                    }
+                  }
+                  </script>    
+                  </span>            
+                </td>
+              </tr>
+            </table>
+            <input type="hidden" name="filter" value="b">
+            <input type="hidden" name="cid" value="">
+               
+      <div style="padding-top:5px;"><input type="submit" name="submit" value="儲存"></div>
+      </form>   
+          
+    </td>
+  </tr>
+  <tr>
+    <td>
+    
+      <table style="margin-left:10px; font-size:13px;">
+                <tr>
+            <td>常用查詢1：<a href="callFilter.php?sType=c&filter=b&B=1&F=&C=" style="color:blue; text-decoration:none;">文物陳列館／全部樓層</a></td>
+            <td>
+              <a href="callFilter_del.php?sType=c&filter=b&B=&F=&C=&icfid=1&sort=1" style="color:red; text-decoration:none; margin-left:20px;" onclick="return confirm('確定刪除？');">刪除</a>
+            </td>
+            <td>
+                 
+                <div style="float:left; margin-left:20px;">
+                <a href="callFilter_sort.php?sType=c&filter=b&B=&F=&C=&icfid=1&sort=1&type=D" style="color:#696969; text-decoration:none;">▼</a>
+                </div>  
+                                <div style="clear:both;"></div>      
+            </td>
+          </tr>
+                    <tr>
+            <td>常用查詢1：<a href="callFilter.php?sType=c&filter=b&B=1&F=8&C=" style="color:blue; text-decoration:none;">文物陳列館／七樓</a></td>
+            <td>
+              <a href="callFilter_del.php?sType=c&filter=b&B=&F=&C=&icfid=2&sort=1" style="color:red; text-decoration:none; margin-left:20px;" onclick="return confirm('確定刪除？');">刪除</a>
+            </td>
+            <td>
+                                <div style="float:left; margin-left:20px;">
+                <a href="callFilter_sort.php?sType=c&filter=b&B=&F=&C=&icfid=2&sort=1&type=U" style="color:#696969; text-decoration:none;">▲</a>
+                </div>
+                 
+                <div style="float:left; margin-left:20px;">
+                <a href="callFilter_sort.php?sType=c&filter=b&B=&F=&C=&icfid=2&sort=1&type=D" style="color:#696969; text-decoration:none;">▼</a>
+                </div>  
+                                <div style="clear:both;"></div>      
+            </td>
+          </tr>
+                    <tr>
+            <td>常用查詢1：<a href="callFilter.php?sType=c&filter=b&B=3&F=19&C=" style="color:blue; text-decoration:none;">圖書館／第一棟三樓</a></td>
+            <td>
+              <a href="callFilter_del.php?sType=c&filter=b&B=&F=&C=&icfid=5&sort=1" style="color:red; text-decoration:none; margin-left:20px;" onclick="return confirm('確定刪除？');">刪除</a>
+            </td>
+            <td>
+                                <div style="float:left; margin-left:20px;">
+                <a href="callFilter_sort.php?sType=c&filter=b&B=&F=&C=&icfid=5&sort=1&type=U" style="color:#696969; text-decoration:none;">▲</a>
+                </div>
+                                <div style="clear:both;"></div>      
+            </td>
+          </tr>
+                </table>
+      <br>
+      <table style="margin-left:5px; font-size:13px;">
+              <tr>
+          <td style="">邱仲麟(主任)（傅斯年圖書館主任）</td>
+          <td style="padding-left:20px;">
+            26523118          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">林妙樺</td>
+          <td style="padding-left:20px;">
+            646          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">潘俊德</td>
+          <td style="padding-left:20px;">
+            608          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">吳昱潓</td>
+          <td style="padding-left:20px;">
+            603          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">詹智怡</td>
+          <td style="padding-left:20px;">
+            603          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">何秀娟</td>
+          <td style="padding-left:20px;">
+            603          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">黃翠玉</td>
+          <td style="padding-left:20px;">
+            607          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">吳雅瑜</td>
+          <td style="padding-left:20px;">
+            637          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">林玉蘋</td>
+          <td style="padding-left:20px;">
+            606          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">林思儀</td>
+          <td style="padding-left:20px;">
+            610          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">許麗芳</td>
+          <td style="padding-left:20px;">
+            611          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">李惠萍</td>
+          <td style="padding-left:20px;">
+            609          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">韓淑屏</td>
+          <td style="padding-left:20px;">
+            605          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+                <tr>
+          <td style="">陳秀華</td>
+          <td style="padding-left:20px;">
+            617          </td>
+          <td style="padding-left:20px;">圖書館(第一棟三樓)</td>
+          <td style="padding-left:20px;">3樓</td>
+          <td style="padding-left:20px;">傅斯年圖書館</td>
+        </tr>
+              </table>
+    </td>
+  </tr>
+</table>

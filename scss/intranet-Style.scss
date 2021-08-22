@@ -409,6 +409,7 @@ nav{
 .myinput:focus{
     background: #e1e1e1}
 .inputxt{ width: 200px}
+.phone-inputxt{ width: 450px}
 
 
 /*返回頂端*/
@@ -841,18 +842,26 @@ summary.nowin{
     font-size: 2.5rem;
     letter-spacing: 2px;    
     color: #581a23}
-#bulletin-toolbar{
+#bulletin-toolbar,
+#phone-toolbar{
     display: flex;
     justify-content: space-between;
     vertical-align: text-top;
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
     width: 100%;
-    margin-top: 30px;
     padding: 15px 0}
+#bulletin-toolbar{
+    margin-top: 30px}
+#phone-toolbar{
+    margin: 20px 0}
+#phone-toolbar label{
+    display: none}
+#phone-toolbar .myselect{
+    margin-right: 10px}
+
 #toolbar-search{
-    justify-content:flex-end
-}
+    justify-content:flex-end}
 
 .event-item,
 .news-item{
@@ -1243,8 +1252,8 @@ summary.nowin{
 .project-date{
     width:25%}
 
-.two-axis tr:nth-child(even),
-.catlog-table tr:nth-child(even){
+.two-axis tr:nth-child(odd),
+.catlog-table tr:nth-child(odd){
     background-color:#e9e9e9}
 .two-axis td,
 .catlog-table td{
@@ -1711,24 +1720,26 @@ table.bt.bt--no-header tbody td::before {
     font-weight: bold; 
     display: inline-block; 
     width: 2.5rem; 
-    margin-left: -2.5rem; 
-  }
+    margin-left: -2.5rem}
 #main-epaper li a{
     color: #b94545;
     text-decoration: none;
 }
-#main-form li a{
+#main-form li a,
+#phone-print li a{
     /* color: #944f4f; */
     color: #333;
     text-decoration: none;
 }
 #main-epaper li a:visited,
-#main-form li a:visited{
+#main-form li a:visited,
+#phone-print li a:visited{
     color: #929292;
     text-decoration: underline;
 }
 #main-epaper li a:hover,
-#main-form li a:hover{
+#main-form li a:hover,
+#phone-print li a:hover{
     color: #941E2D;
     text-decoration: underline;
 }
@@ -1813,22 +1824,61 @@ table.bt.bt--no-header tbody td::before {
 /*
 ========== 表單下載 ==========
 */
-#form-pagelink{
+#form-pagelink,
+#phone-pagelink{
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0}
 #box-form a.mybtn,
-#box-form a.mybtn:visited{
+#box-form a.mybtn:visited,
+#phone-pagelink a.mybtn,
+#phone-pagelink a.mybtn:visited{
     color: #4d4d4d;
     text-decoration: none;
     margin-right: 8px}
 #box-form a.mybtn:hover,
 #box-form a.now-select,
-#box-form a.now-select:visited{
+#box-form a.now-select:visited,
+#phone-pagelink a.mybtn:hover,
+#phone-pagelink a.now-select,
+#phone-pagelink a.now-select:visited{
     background: #615252;
     color: #fff;
     text-decoration: none;
     transition-duration: .5s}
+
+/*
+========== 線上服務 ==========
+*/
+.phoneTable td{
+    text-align: center}
+.phoneTable td.phone-name{
+    text-align:left}
+#phone-note{
+    clear: both;
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    padding: 0;
+    border-top: 1px solid #e1e1e1}
+#phone-use,
+#phone-print{
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: top;}
+#phone-use{ width: 67%;}
+#phone-print{width: 32%}
+#phone-use ol,
+#phone-print ul{
+    padding-left: 35px}
+#phone-use li{
+    list-style:decimal}
+#phone-print li::before{
+    content: "\2022";
+    color: rgb(141, 140, 140); 
+    font-weight: bold; 
+    display: inline-block; 
+    margin-left: -2rem}
 
 
 @media all and (-ms-high-contrast:none) {

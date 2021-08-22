@@ -311,7 +311,13 @@ header,
     content: "|";
     padding: 0 10px} 
 .epaper-list li{
-    width: 30%}           
+    width: 30%}
+.phoneTable td.phone-name{
+    width:25%}
+#phone-toolbar{
+    display: block}
+#phone-toolbar-option{
+    margin-bottom: 20px}      
 }
 
 /*
@@ -430,6 +436,23 @@ header,
     padding: 8px 15px}
 #book-info .taglist a{
     margin-bottom: 15px}
+.phoneTable td.phone-name{
+    width:100%}
+#phone-use,
+#phone-print{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    vertical-align: top}
+/* #phone-print ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    padding-top: 15px;}
+#phone-print li{
+    margin-right: 20px;}
+#phone-print li::before{
+    content: none;} */
 }
 
 /*
@@ -859,6 +882,9 @@ header,
 .epaper-list li{
     width: 100%;
     margin: 0 0 20px 8px}
+#phone-note{
+    padding-top: 30px;
+    border-top: none}
 }
 
 
