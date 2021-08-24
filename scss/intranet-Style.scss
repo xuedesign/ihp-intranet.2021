@@ -843,7 +843,8 @@ summary.nowin{
     letter-spacing: 2px;    
     color: #581a23}
 #bulletin-toolbar,
-#phone-toolbar{
+#phone-toolbar,
+#booking-toolbar{
     display: flex;
     justify-content: space-between;
     vertical-align: text-top;
@@ -853,6 +854,8 @@ summary.nowin{
     padding: 15px 0}
 #bulletin-toolbar{
     margin-top: 30px}
+#booking-toolbar{
+    margin-bottom: 30px}
 #phone-toolbar{
     margin: 20px 0}
 #phone-toolbar label{
@@ -1220,6 +1223,9 @@ summary.nowin{
     background: #A51C30;
     color: #fff;
     letter-spacing: 2px}
+.two-axis tr{
+    border-bottom: 10px solid #fff;
+}
 .fellows-name{
     width: 14%}
 .fellows-note{
@@ -1258,7 +1264,7 @@ summary.nowin{
 .two-axis td,
 .catlog-table td{
     line-height: 2.4rem;
-    padding: 8px 8px;
+    padding:8px;
     vertical-align: middle;
     border: 1px solid #fff/*#b8b8b8*/}
 .fellows-name,
@@ -1333,7 +1339,8 @@ table.bt tbody td.bt-hide {
 table.bt tfoot th .bt-content,
 table.bt tfoot td .bt-content,
 table.bt tbody td .bt-content {
-    vertical-align: top}
+    vertical-align: top;
+    text-align: left;}
 
 .bt-wrapper.active {
     max-height: 310px;
@@ -1825,14 +1832,17 @@ table.bt.bt--no-header tbody td::before {
 ========== 表單下載 ==========
 */
 #form-pagelink,
-#phone-pagelink{
+#phone-pagelink,
+#booking-pagelink{
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0}
 #box-form a.mybtn,
 #box-form a.mybtn:visited,
 #phone-pagelink a.mybtn,
-#phone-pagelink a.mybtn:visited{
+#phone-pagelink a.mybtn:visited,
+#booking-pagelink a.mybtn,
+#booking-pagelink a.mybtn:visited{
     color: #4d4d4d;
     text-decoration: none;
     margin-right: 8px}
@@ -1841,7 +1851,10 @@ table.bt.bt--no-header tbody td::before {
 #box-form a.now-select:visited,
 #phone-pagelink a.mybtn:hover,
 #phone-pagelink a.now-select,
-#phone-pagelink a.now-select:visited{
+#phone-pagelink a.now-select:visited,
+#booking-pagelink a.mybtn:hover,
+#booking-pagelink a.now-select,
+#booking-pagelink a.now-select:visited{
     background: #615252;
     color: #fff;
     text-decoration: none;
@@ -1881,6 +1894,66 @@ table.bt.bt--no-header tbody td::before {
     font-weight: bold; 
     display: inline-block; 
     margin-left: -2rem}
+
+#booking-pagelink{ margin-bottom: 20px}
+/* .booking-title{ width:30%} */
+.booking-room{ width:20%}
+.booking-date,
+.booking-time,
+.booking-option{ width:15%}
+.booking-option a,
+.booking-option a:visited{
+    color:#3e3e3e;
+    text-decoration:none;
+    margin: 5px;
+    padding: 3px 5px;
+    border: 1px solid #838383;
+    border-radius: 8px;}
+.booking-option a:hover{
+    background: #615252;
+    color: #fff;
+    text-decoration: none}
+.date-now a,
+.date-now a:visited{
+    color: #3e3e3e;
+    text-decoration: none;
+    margin: 0 8px;}
+.date-now a:hover{
+    color: #941E2D;
+    text-decoration: none}
+.booking-calendar{
+    width: 100%}
+.booking-calendar th{
+    width: 14%;
+    padding: 10px 0;
+    text-align: center;
+    background: #685858;
+    color: #fff;
+    border: 1px solid #e1e1e1}
+.booking-calendar th:nth-child(1){
+    background: #A51C30}
+.booking-calendar td{
+    border:1px solid #797979;
+    padding:8px;
+    font-weight: bolder}
+.booking-calendar td:hover{
+    cursor: pointer;
+    background: #fffacc}
+.selected{
+    background: #fdf0e7}
+.event-item{
+    display: block;
+    background: #e6e6e6;
+    border-radius: 10px;
+    border:1px solid #505050;
+    padding: 8px;
+    margin-bottom: 15px}
+.event-item > div{
+    font-weight: normal;
+    font-size:1.5rem;
+    line-height: 2rem}
+.event-item > div:nth-child(1){
+    margin-bottom: 10px}
 
 
 @media all and (-ms-high-contrast:none) {

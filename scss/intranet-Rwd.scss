@@ -95,7 +95,15 @@ h1{
 #toolbar{
     width: 45%}
 .project-date{
-    width:28%}    
+    width:28%}
+}
+
+@media (max-width:1300px) {
+.booking-option{ width:18%}
+.booking-title{ width:25%}
+.booking-room{ width: 25%}
+.booking-date,
+.booking-time{ width:14%}
 }    
 
 /*
@@ -314,10 +322,21 @@ header,
     width: 30%}
 .phoneTable td.phone-name{
     width:25%}
-#phone-toolbar{
+#phone-toolbar,
+#booking-toolbar{
     display: block}
 #phone-toolbar-option{
-    margin-bottom: 20px}      
+    margin-bottom: 20px}
+.date-picker{
+    margin: 15px 0 0 10px;
+}
+.booking-date,
+.booking-option,
+.booking-time{ width: 15%}
+.booking-room{ width: 18%}
+.booking-option a{
+    display: block;
+    margin: 8px 0}     
 }
 
 /*
@@ -453,6 +472,10 @@ header,
     margin-right: 20px;}
 #phone-print li::before{
     content: none;} */
+.booking-option a{
+    display: inline;
+    margin: 0 5px;
+    vertical-align:top}
 }
 
 /*

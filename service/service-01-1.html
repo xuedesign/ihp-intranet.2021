@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Institute of History and Philology, Academia Sinica" />
-    <title>公告事項-最新公告事項｜史語所所內專區</title>
-    <meta name="description" content="公告事項-最新公告事項"/><!---頁面描述-->
+    <title>線上服務-會議室借用與查詢｜史語所所內專區</title>
+    <meta name="description" content="線上服務-會議室借用與查詢"/><!---頁面描述-->
     <link rel="shortcut icon"  href="../images/favicon.ico"/>
     <link rel="icon" href="../images/favicon.ico"/>
     <link rel="apple-touch-icon" href="../images/appicon.png">
@@ -144,24 +144,25 @@
     <div id="container">
         <div id="breadcrumb">
             <a id="main-content" href="#main-content" title="主要內容區" accesskey="C" class="accesskey">:::</a>
-            <p>帳號：系統管理員 (ihp@asihp.net)<span>位置：公告事項 &gt; 最新公告事項</span></p>
+            <p>帳號：系統管理員 (ihp@asihp.net)<span>位置：線上服務 &gt; 會議室借用與查詢</span></p>
         </div>
 
         <div id="container-two">
             <!---側邊選單列-->
             <aside id="container-subnav">
                 <div id="subnav-title">
-                    <div id="backhome">所內專區<span>&gt;</span><h2>公告事項</h2></div>
+                    <div id="backhome">所內專區<span>&gt;</span><h2>線上服務</h2></div>
                 </div>
                 <img class="redarrow" src="../images/red-arrow.svg" alt="arrow">
 
                 <!---在該單元時，a須加上class="nowin"-->
                 <ul id="subnav-list">
-                    <li><a class="nowin" href="../news/list-news-all.html" title="最新公告事項">最新公告事項</a></li>
-                    <li><a href="../news/list-news-01.html" title="秘書室">秘書室</a></li>
-                    <li><a href="../news/list-news-02.html" title="會計室">會計室</a></li>
-                    <li><a href="../news/list-news-03.html" title="事務室">事務室</a></li>
-                    <li><a href="../news/list-news-04.html" title="資訊室">資訊室</a></li>
+                    <li><a href="http://dahcr.ihp.sinica.edu.tw/article/" title="講論會系統(另開新視窗)" target="_blank">講論會系統</a></li>
+                    <li><a class="nowin" href="../service/service-01.html" title="會議室借用與查詢">會議室借用與查詢</a></li>
+                    <li><a href="../service/service-02.html" title="所內電話查詢">所內電話查詢</a></li>
+                    <li><a href="../service/service-03.html" title="財物資源共享平台">財物資源共享平台</a></li>
+                    <li><a href="http://www4.ihp.sinica.edu.tw/admin" title="經費查詢系統(另開新視窗)" target="_blank">經費查詢系統</a></li>
+                    <li><a href="https://netask.ihp.sinica.edu.tw/" title="線上會簽系統(另開新視窗)" target="_blank">線上會簽系統</a></li>
                 </ul>
             </aside><!--//end #container-subnav-->
 
@@ -170,7 +171,7 @@
             <div id="container-main">
                 <div id="myPrintArea">
                     <div id="page-title">
-                        <h3>最新公告事項</h3>
+                        <h3>會議室借用與查詢</h3>
                         <ul id="toolbar">
                             <li><img src="../images/pot-print.svg" alt="列印圖示">
                                 <a id="print_button" class="btn-print" href="#" title="列印本頁">列印</a></li>
@@ -185,162 +186,59 @@
                     </div><!--//end #page-title-->
                 
                     <div id="page-main">
-                        <section id="box-bulletin" class="p-event">
-                            <div id="bulletin-toolbar">
-                                <div id="toolbar-option">
-                                    <span class="toolbar-event-type">
-                                        <label for="event-type">類別</label>
-                                        <select id="event-type" name="event-type" class="myselect">
-                                            <option>全部</option>
-                                            <option>秘書室</option>
-                                            <option>會計室</option>
-                                            <option>事務室</option>
-                                            <option>資訊室</option>
-                                        </select>
-                                    </span>
+                        <section id="box-booking">
+                            <div id="booking-pagelink"><!--選單在該類別時，添加class="now-select"-->
+                                <a class="mybtn" href="../service/service-01-3.html" title="新增預約">新增預約</a>
+                                <a class="mybtn" href="../service/service-01.html" title="我的預約">我的預約</a>
+                                <a class="mybtn now-select" href="../service/service-01-1.html" title="日">日</a>
+                                <a class="mybtn" href="../service/service-01-2.html" title="月">月</a>
+                            </div>
 
-                                    <label for="event-year">年度</label>
-                                    <select id="event-year" name="event-year" class="myselect">
-                                        <option>全部</option>
-                                        <option>2020</option>
-                                        <option>2019</option>
-                                        <option>2018</option>
-                                        <option>2017</option>
-                                        <option>2016</option>
-                                        <option>2015</option>
-                                        <option>2014</option>
-                                        <option>2013</option>
-                                        <option>2012</option>
-                                    </select>
-                                    <input type="button" class="btn_send" value="篩選"/>
+                            <div id="booking-toolbar">
+                                <div class="date-now">
+                                    <a href="#" title="前一日"><i class="fas fa-arrow-circle-left"></i></a>
+                                    2021 年 8 月 25 日 (星期三)
+                                    <a href="#" title="後一日"><i class="fas fa-arrow-circle-right"></i></a>
                                 </div>
-                                <div id="toolbar-search">
-                                    <label for="event-search">搜尋</label>
-                                    <input type="text" id="event-search" name="event-search" class="myinput inputxt" placeholder="請輸入關鍵字">
-                                    <input type="button" class="btn_send" value="查詢"/>
+                                <div class="date-picker">
+                                    <label for="bookdate">日期選擇：</label>
+                                    <input id="bookdate" type="date" name="bookdate" value="">
                                 </div>
-                            </div><!--//end #bulletin-toolbar-->
+                                
+                            </div>
 
                             <!--沒有內容時顯示此標語
                             <div id="no-content">
-                                <h3>目前暫無公告事項。</h3>
+                                <h3>無預約紀錄。</h3>
                             </div>-->
-                            
-                            <div id="bulletin-list">
 
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">秘書室</p>
-                                        <p class="news-time">2020年12月15日</p>
-                                        <h3><a href="article-news-01.html" title="本所 110 年（2021）講論會次序表">本所 110 年（2021）講論會次序表</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">事務室</p>
-                                        <p class="news-time">2020年12月15日</p>
-                                        <h3><a href="#" title="具敏感性或國安 (含資安) 疑慮之採購標的原產地及廠商資格限制">具敏感性或國安 (含資安) 疑慮之採購標的原產地及廠商資格限制</a></h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">事務室</p>
-                                        <p class="news-time">2020年12月15日</p>
-                                        <h3><a href="#" title="本所 110 年行事曆">本所 110 年行事曆</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">秘書室</p>
-                                        <p class="news-time">2020年10月23日</p>
-                                        <h3><a href="#" title="中央研究院受贈收入收支管理要點">中央研究院受贈收入收支管理要點</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">會計室</p>
-                                        <p class="news-time">2019年6月14日</p>
-                                        <h3><a href="#" title="中央研究院講座鐘點費支給標準">中央研究院講座鐘點費支給標準</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">會計室</p>
-                                        <p class="news-time">2019年6月14日</p>
-                                        <h3><a href="#" title="中央研究院「譯稿費」、「升等、續聘、新聘案件審查費」、「重大會議引言費、評論費、對談人費」、「改稿、潤稿費」支付標準">中央研究院「譯稿費」、「升等、續聘、新聘案件審查費」、「重大會議引言費、評論費、對談人費」、「改稿、潤稿費」支付標準</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">會計室</p>
-                                        <p class="news-time">2019年6月14日</p>
-                                        <h3><a href="#" title="中央研究院演講費支付標準表">中央研究院演講費支付標準表</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">秘書室</p>
-                                        <p class="news-time">2019年5月7日</p>
-                                        <h3><a href="#" title="科技部對「掠奪性期刊及研討會」議題之聲明">科技部對「掠奪性期刊及研討會」議題之聲明</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">秘書室</p>
-                                        <p class="news-time">2018年4月24日</p>
-                                        <h3><a href="#" title="有關研究人員赴大陸地區兼職或兼課相關規定">有關研究人員赴大陸地區兼職或兼課相關規定</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="news-item">
-                                    <div class="news-info">
-                                        <p class="news-type">秘書室</p>
-                                        <p class="news-time">2018年4月2日</p>
-                                        <h3><a href="#" title="本院利益衝突事項處理要點暨相關配套法規 109-12-17 更新"> 本院利益衝突事項處理要點暨相關配套法規 109-12-17 更新</a></h3>
-                                    </div>
-                                </div>
-                                
-                                
-                                
-                            </div><!--//end #bulletin-list-->
-
-                            <div id="page-control">
-                                <div id="page-number">
-                                    <label for="event-page">位於第</label>
-                                    <select id="event-page" name="event-page" class="myselect">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                        <option>6</option>
-                                        <option>7</option>
-                                        <option>8</option>
-                                        <option>9</option>
-                                        <option>10</option>
-                                    </select>
-                                    頁/10頁，共有100筆資料
-                                </div>
-                                
-                                <!---css增加'disabled'表示該按鈕無效，通常在第一頁及最後一頁使用-->
-                                <div id="page-btn-left">
-                                    <a href="#" class="mybtn disabled" title="最前頁">最前頁</a>
-                                    <a href="#" class="mybtn disabled" title="上一頁">上一頁</a>
-                                </div>
-                                <div id="page-btn-right">
-                                    <a href="#"  class="mybtn" title="下一頁">下一頁</a>
-                                    <a href="#"  class="mybtn" title="最後頁">最後頁</a>
-                                </div>
-                            </div><!--//end #page-control-->
-
+                            <table id="table-two-axis" class="two-axis phoneTable" summary="會議室借用與查詢">
+                                <tr>
+                                    <th>會議室</th>
+                                    <th>時段</th>
+                                    <th>聯絡人</th>
+                                    <th>會議主題</th>
+                                </tr>
+                                <tr>
+                                    <td class="booking-room">研究大樓 704 室</td>
+                                    <td class="booking-time">14:00~17:00</td>
+                                    <td class="booking-name">林玉雯</td>
+                                    <td class="booking-title">PNC 2021 籌備_設備測試</td>
+                                </tr>
+                                <tr>
+                                    <td class="booking-room">文物館 632 會議室</td>
+                                    <td class="booking-time">15:00~17:00</td>
+                                    <td class="booking-name">賴淑麗</td>
+                                    <td class="booking-title">安陽工作室討論會</td>
+                                </tr>
+                                <tr>
+                                    <td class="booking-room">文物館 5 樓小圖</td>
+                                    <td class="booking-time">15:00~17:00</td>
+                                    <td class="booking-name">湯雅婷</td>
+                                    <td class="booking-title">王明珂老師計畫會議</td>
+                                </tr>
+                            </table>
+                        
                         </section>
                     </div><!--//end #page-main-->
 
