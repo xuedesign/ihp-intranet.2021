@@ -188,56 +188,127 @@
                     <div id="page-main">
                         <section id="box-booking">
                             <div id="booking-pagelink"><!--選單在該類別時，添加class="now-select"-->
-                                <a class="mybtn" href="../service/service-01-3.html" title="新增預約">新增預約</a>
+                                <a class="mybtn now-select" href="../service/service-01-3.html" title="新增預約">新增預約</a>
                                 <a class="mybtn" href="../service/service-01.html" title="我的預約">我的預約</a>
-                                <a class="mybtn now-select" href="../service/service-01-1.html" title="日">日</a>
+                                <a class="mybtn" href="../service/service-01-1.html" title="日">日</a>
                                 <a class="mybtn" href="../service/service-01-2.html" title="月">月</a>
                             </div>
 
-                            <div id="booking-toolbar">
-                                <div class="date-now">
-                                    <a href="#" title="前一日"><i class="fas fa-arrow-circle-left"></i></a>
-                                    2021 年 8 月 25 日 (星期三)
-                                    <a href="#" title="後一日"><i class="fas fa-arrow-circle-right"></i></a>
-                                </div>
-                                <div class="date-picker">
-                                    <label for="bookdate">日期選擇：</label>
-                                    <input id="bookdate" type="date" name="bookdate"  class="myinput" value="">
-                                </div>
-                                
+                            <form action="#" method="post">
+                                <ul id="booking-list">
+                                    <li>
+                                        <label class="mylabel" for="meeting-room">會議室名稱：</label>
+                                        <select id="meeting-room" name="meeting-room" class="myselect">
+                                            <option>請選擇</option>
+                                            <option value="1">研究大樓701室</option>
+                                            <option value="2">研究大樓702室</option>
+                                            <option value="3">研究大樓703室</option>
+                                            <option value="4">研究大樓704室</option>
+                                            <option value="10">文物館B1</option>
+                                            <option value="8">文物館B1演講廳</option>
+                                            <option value="6">文物館5F會議室</option>
+                                            <option value="7" selected>文物館5樓小圖</option>
+                                            <option value="13">文物館631會議室</option>
+                                            <option value="11">文物館632會議室</option>
+                                        </select>
+                                        <label class="mylabel mylabel-day" for="meeting-day">預約天數：</label>
+                                        <select id="meeting-day" name="meeting-day" class="myselect">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <label class="mylabel" for="meeting-date">預約時段1：</label>
+                                        <input id="meeting-date" type="date" name="meeting-date" class="myinput" value="2021-09-09">
+                                        <div class="meeting-time">
+                                            <label for="meeting-time-start">起</label>
+                                            <select id="meeting-time-start" name="meeting-time-start" class="myselect">
+                                                <option value="">--</option>
+                                                <option value="9">09:00</option>
+                                                <option value="10">10:00</option>
+                                                <option value="11">11:00</option>
+                                                <option value="12">12:00</option>
+                                                <option value="13">13:00</option>
+                                                <option value="14" selected>14:00</option>
+                                                <option value="15">15:00</option>
+                                                <option value="16">16:00</option>
+                                                <option value="17">17:00</option>
+                                                <option value="18">18:00</option>
+                                                <option value="19">19:00</option>
+                                                <option value="20">20:00</option>
+                                                <option value="21">21:00</option>
+                                            </select>
+
+                                            <label for="meeting-time-end">訖</label>
+                                            <select id="meeting-time-end" name="meeting-time-end" class="myselect">
+                                                <option value="">--</option>
+                                                <option value="9">09:00</option>
+                                                <option value="10">10:00</option>
+                                                <option value="11">11:00</option>
+                                                <option value="12">12:00</option>
+                                                <option value="13">13:00</option>
+                                                <option value="14">14:00</option>
+                                                <option value="15">15:00</option>
+                                                <option value="16" selected>16:00</option>
+                                                <option value="17">17:00</option>
+                                                <option value="18">18:00</option>
+                                                <option value="19">19:00</option>
+                                                <option value="20">20:00</option>
+                                                <option value="21">21:00</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label class="mylabel" for="meeting-title">會議主題：</label>
+                                        <input id="meeting-title" name="meeting-title" type="text" class="myinput long-inputxt" value="110 年第三次資委會">
+                                    </li>
+                                    <li>
+                                        <label class="mylabel" for="meeting-contact">聯絡人：</label>
+                                        <input id="meeting-contact" name="meeting-contact" type="text" class="myinput long-inputxt" value="系統管理員">
+                                    </li>
+                                    <li>
+                                        <label class="mylabel" for="meeting-tel">電話或分機：</label>
+                                        <input id="meeting-tel" name="meeting-tel" type="text" class="myinput long-inputxt" value="02-2782-9555#695">
+                                    </li>
+                                    <li>
+                                        <h4 class="mylabel">使用設備：</h4>
+                                        <div class="check-list">
+                                            <input type="checkbox" id="device1" name="device1" value="紙筆" checked>
+                                            <label for="device1">紙筆</label>
+                                            <input type="checkbox" id="device3" name="device3" value="投影機" checked>
+                                            <label for="device3">投影機</label>
+                                            <input type="checkbox" id="device2" name="device2" value="錄音">
+                                            <label for="device2">錄音</label>
+                                            <input type="checkbox" id="device5" name="device5" value="錄影">
+                                            <label for="device5">錄影</label>
+                                            <span>（錄影僅文B1、研704、文5樓會議室提供）</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4 class="mylabel">事務室協助：</h4>
+                                        <div class="check-list">
+                                            <input type="radio" id="meeting-help1" name="meeting-help" value="yes">
+                                            <label for="meeting-help1">是</label>
+                                            <input type="radio" id="meeting-help2" name="meeting-help" value="no" checked>
+                                            <label for="meeting-help2">否</label>
+                                            <span class="t-red">筆記型電腦、雷射筆請於會議前逕洽事務室(分機：248)登記借用。</span>
+                                        </div>
+                                    </li>
+                                    <li><label for="meeting-note" class="meeting-note">其他：</label>
+                                        <input id="meeting-note" name="meeting-note" type="text" class="myinput long-inputxt">
+                                    </li>
+                                </ul>
+                            </form>
+                            <div id="formbtn">
+                                <input type="button" class="mybtn" value="取消修改" onclick="location.href='service-01.html'"/>
+                                <input type="button" class="mybtn catalog-send" value="送出修改" onclick="location.href='service-01.html'"/>
                             </div>
+                        
 
-                            <!--沒有內容時顯示此標語
-                            <div id="no-content">
-                                <h3>無預約紀錄。</h3>
-                            </div>-->
-
-                            <table id="table-two-axis" class="two-axis phoneTable" summary="會議室借用與查詢">
-                                <tr>
-                                    <th>會議室</th>
-                                    <th>時段</th>
-                                    <th>聯絡人</th>
-                                    <th>會議主題</th>
-                                </tr>
-                                <tr>
-                                    <td class="booking-room">研究大樓 704 室</td>
-                                    <td class="booking-time">14:00~17:00</td>
-                                    <td class="booking-name">林玉雯</td>
-                                    <td class="booking-title">PNC 2021 籌備_設備測試</td>
-                                </tr>
-                                <tr>
-                                    <td class="booking-room">文物館 632 會議室</td>
-                                    <td class="booking-time">15:00~17:00</td>
-                                    <td class="booking-name">賴淑麗</td>
-                                    <td class="booking-title">安陽工作室討論會</td>
-                                </tr>
-                                <tr>
-                                    <td class="booking-room">文物館 5 樓小圖</td>
-                                    <td class="booking-time">15:00~17:00</td>
-                                    <td class="booking-name">湯雅婷</td>
-                                    <td class="booking-title">王明珂老師計畫會議</td>
-                                </tr>
-                            </table>
+                            
                         
                         </section>
                     </div><!--//end #page-main-->

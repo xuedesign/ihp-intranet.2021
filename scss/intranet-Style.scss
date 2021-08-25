@@ -399,7 +399,7 @@ nav{
 .myselect,
 .myinput{
     font-family:"Noto Sans TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #333;
     border: 1px solid #8f8e8e;
     border-radius: 3px;
@@ -409,7 +409,8 @@ nav{
 .myinput:focus{
     background: #e1e1e1}
 .inputxt{ width: 200px}
-.phone-inputxt{ width: 450px}
+.phone-inputxt,
+.long-inputxt{ width: 450px}
 
 
 /*返回頂端*/
@@ -1954,6 +1955,66 @@ table.bt.bt--no-header tbody td::before {
     line-height: 2rem}
 .event-item > div:nth-child(1){
     margin-bottom: 10px}
+.booking-number{
+    display: none;
+    width: 30px;
+    height: 30px;
+    background: rgb(121, 40, 40);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px auto}
+#formbtn{
+    display: block;
+    width: 100%;
+    text-align: center}
+#formbtn .mybtn{
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    margin: 20px;
+    cursor: pointer}
+.catalog-send{
+    color: #fff;
+    background: rgba(96, 82, 82, .5);}
+#booking-list li{
+    padding: 15px 0;
+    border-bottom:1px dashed #e1e1e1}
+/* #booking-list li label,
+#booking-list h4{
+    display: inline-block;
+    text-align:right;
+    font-weight:300;} */
+.mylabel,
+#booking-list .meeting-note{ 
+    display: inline-block;
+    text-align:right;
+    font-weight:400;
+    width: 15%;}
+#booking-list .check-list{
+    display:inline-block}
+#booking-list .check-list label{ 
+    display: inline}
+#booking-list .check-list span{
+    font-size: 1.5rem;
+    padding-left: 10px;}
+.t-red{color:#a12d3e;}
+#booking-list li label::before,
+#booking-list h4::before{
+    content:"*";
+    color:#941E2D}
+#booking-list .meeting-time{ 
+    display:inline-block;
+    margin-left: 15px;}
+#booking-list .meeting-time label{ 
+    display:inline-block;
+    text-align: left;
+    margin-left: 15px;}
+#booking-list .meeting-time label::before,
+#booking-list .meeting-note::before,
+#booking-list .check-list label::before{
+    content:"";}
+.meeting-time label{ margin: 0 5px;}
 
 
 @media all and (-ms-high-contrast:none) {

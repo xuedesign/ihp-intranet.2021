@@ -336,7 +336,13 @@ header,
 .booking-room{ width: 18%}
 .booking-option a{
     display: block;
-    margin: 8px 0}     
+    margin: 8px 0} 
+.mylabel,
+#booking-list .meeting-note{
+    display: block; 
+    width: 100%;
+    text-align: left}
+.mylabel-day{ margin-top:20px}    
 }
 
 /*
@@ -619,7 +625,11 @@ header,
     content: " ";
     padding: 0}
 .epaper-list li{
-    width: 45%} 
+    width: 45%}
+.booking-calendar td{ text-align: center;}
+.event-item{ display: none}
+.booking-number{ display: block;}
+#booking-list .check-list span{ display: block} 
 }
     
 /*
@@ -908,7 +918,13 @@ header,
 #phone-note{
     padding-top: 30px;
     border-top: none}
-.phone-inputxt{ width: 79%}
+.phone-inputxt,
+.long-inputxt{ width: 79%}
+#booking-list .meeting-time{ 
+    display:block;
+    margin: 15px 0 0 0;}
+#booking-list .meeting-time label{
+    margin-left: 0}
 }
 
 
@@ -926,5 +942,6 @@ header,
         height: 350px}
     .btn_reg a{
         bottom: 175px}
-    .phone-inputxt{ width: 72%}
+    .phone-inputxt,
+    .long-inputxt{ width: 72%}
 }

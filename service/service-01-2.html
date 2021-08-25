@@ -202,7 +202,7 @@
                                 </div>
                                 <div class="date-picker">
                                     <label for="bookdate">月份選擇：</label>
-                                    <input id="bookdate" type="month" name="bookdate" value="">
+                                    <input id="bookdate" type="month" name="bookdate"  class="myinput" value="">
                                 </div>
                                 
                             </div>
@@ -214,23 +214,25 @@
 
                             <table summary="會議室借用行事曆" class="booking-calendar">
                                 <tr>
-                                    <th>星期日</th>
-                                    <th>星期一</th>
-                                    <th>星期二</th>
-                                    <th>星期三</th>
-                                    <th>星期四</th>
-                                    <th>星期五</th>
-                                    <th>星期六</th>
+                                    <th>日</th>
+                                    <th>一</th>
+                                    <th>二</th>
+                                    <th>三</th>
+                                    <th>四</th>
+                                    <th>五</th>
+                                    <th>六</th>
                                 </tr>
                                 <tr>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">1</td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">2
+                                        <span class="booking-number">1</span><!--當日會議數量，手機版用-->
                                         <div class="event-item">
                                             <div>14:00 ~ 16:00</div>
                                             <div>研究大樓701室</div>
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">3
+                                        <span class="booking-number">2</span>
                                         <div class="event-item">
                                             <div>10:00 ~ 12:00</div>
                                             <div>研究大樓702室</div>
@@ -241,6 +243,7 @@
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">4
+                                        <span class="booking-number">4</span>
                                         <div class="event-item">
                                             <div>13:00 ~ 15:00</div>
                                             <div>研究大樓701室</div>
@@ -259,6 +262,7 @@
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">5
+                                        <span class="booking-number">1</span>
                                         <div class="event-item">
                                             <div>10:00 ~ 12:00</div>
                                             <div>文物館5F會議室</div>
@@ -270,12 +274,14 @@
                                 <tr>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">8</td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">9
+                                        <span class="booking-number">1</span>
                                         <div class="event-item">
                                             <div>14:00 ~ 16:00</div>
                                             <div>文物館5樓小圖</div>
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">10
+                                        <span class="booking-number">5</span>
                                         <div class="event-item">
                                             <div>10:00 ~ 11:00</div>
                                             <div>文物館5樓小圖</div>
@@ -302,6 +308,7 @@
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">11
+                                        <span class="booking-number">8</span>
                                         <div class="event-item">
                                             <div>09:00 ~ 12:00</div>
                                             <div>文物館631會議室</div>
@@ -336,6 +343,7 @@
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">12
+                                        <span class="booking-number">4</span>
                                         <div class="event-item">
                                             <div>09:00 ~ 17:00</div>
                                             <div>研究大樓704室</div>
@@ -353,8 +361,8 @@
                                             <div>研究大樓701室</div>
                                         </div>
                                     </td>
-                                    <td class="booking-event" onclick="self.location.href='service-01-1.html'">
-                                        13
+                                    <td class="booking-event" onclick="self.location.href='service-01-1.html'">13
+                                        <span class="booking-number">4</span>
                                         <div class="event-item">
                                             <div>09:00 ~ 17:00</div>
                                             <div>研究大樓704室</div>
@@ -377,6 +385,7 @@
                                 <tr>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">15</td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">16
+                                        <span class="booking-number">4</span>
                                         <div class="event-item">
                                             <div>09:00 ~ 13:00</div>
                                             <div>文物館631會議室</div>
@@ -395,6 +404,7 @@
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">17
+                                        <span class="booking-number">2</span>
                                         <div class="event-item">
                                             <div>10:00 ~ 12:00</div>
                                             <div>文物館631會議室</div>
@@ -405,6 +415,7 @@
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">18
+                                        <span class="booking-number">3</span>
                                         <div class="event-item">
                                             <div>10:00 ~ 12:00</div>
                                             <div>文物館632會議室</div>
@@ -419,6 +430,7 @@
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">19
+                                        <span class="booking-number">5</span>
                                         <div class="event-item">
                                             <div>09:00 ~ 13:00</div>
                                             <div>文物館631會議室</div>
@@ -445,6 +457,7 @@
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">20
+                                        <span class="booking-number">1</span>
                                         <div class="event-item">
                                             <div>10:00 ~ 11:00</div>
                                             <div>文物館5樓小圖</div>
@@ -455,6 +468,7 @@
                                 <tr>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">22</td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">23
+                                        <span class="booking-number">4</span>
                                         <div class="event-item">
                                             <div>10:00 ~ 12:00</div>
                                             <div>文物館5F會議室</div>
@@ -472,13 +486,15 @@
                                             <div>文物館631會議室</div>
                                         </div>
                                     </td>
-                                    <td class="booking-event selected" onclick="self.location.href='service-01-1.html'">24
+                                    <td class="booking-event" onclick="self.location.href='service-01-1.html'">24
+                                        <span class="booking-number">1</span>
                                         <div class="event-item">
                                             <div>14:00 ~ 16:00</div>
                                             <div>文物館632會議室</div>
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">25
+                                        <span class="booking-number">2</span>
                                         <div class="event-item">
                                             <div>14:00 ~ 17:00</div>
                                             <div>研究大樓704室</div>
@@ -488,7 +504,8 @@
                                             <div>文物館632會議室</div>
                                         </div>
                                     </td>
-                                    <td class="booking-event" onclick="self.location.href='service-01-1.html'">26
+                                    <td class="booking-event selected" onclick="self.location.href='service-01-1.html'">26
+                                        <span class="booking-number">3</span>
                                         <div class="event-item">
                                             <div>09:00 ~ 12:00</div>
                                             <div>文物館5F會議室</div>
@@ -503,6 +520,7 @@
                                         </div>
                                     </td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">27
+                                        <span class="booking-number">3</span>
                                         <div class="event-item">
                                             <div>13:00 ~ 17:00</div>
                                             <div>研究大樓701室</div>
@@ -521,6 +539,7 @@
                                 <tr>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">29</td>
                                     <td class="booking-event" onclick="self.location.href='service-01-1.html'">30
+                                        <span class="booking-number">1</span>
                                         <div class="event-item">
                                             <div>13:00 ~ 17:00</div>
                                             <div>文物館5樓小圖</div>
