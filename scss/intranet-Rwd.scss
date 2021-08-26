@@ -42,68 +42,68 @@
 }
 
 @media (max-width:1600px) {
-#hdr-main,
-#ftr-main,
-#container{ width: 95%}
-#box-ftrdown{ padding: 30px 0 0}
-#box-top{ width: 60%}
-.sf-menu a { padding: .9em 3.5rem}
-.sf-menu li li a,
-.sf-menu li li li a{
-	font-size: 1.9rem;
-	padding: 1.8rem 1rem 1.8rem 2rem;
-    line-height: 2.5rem}
-.info-top-left{
-    top: 10%;
-    left: 5%}
-.info-top-right{
-    top: 10%;
-    right: 5%}
-.info-bottom-left{
-    bottom: 10%;
-    left: 5%}
-.info-bottom-right{
-    bottom: 10%;
-    right: 5%}
-#gallery-view li{
-    width: 165px;
-    height: 165px}
-.abgne-carousel .frame{
-    margin: 0 auto}
-.catlog-date{
-    width: 11%}
-.back-to-top-wrapper{ 
-    right: 5rem;
-    bottom: 14rem}  
-.book-thumbnail span{
-    height: 250px}
-.book-price{
-    width: 25%}
-h1{
-    width: 480px;
-    height: 85px;
-    margin-top: 30px}             
+    #hdr-main,
+    #ftr-main,
+    #container{ width: 95%}
+    #box-ftrdown{ padding: 30px 0 0}
+    #box-top{ width: 60%}
+    .sf-menu a { padding: .9em 3.5rem}
+    .sf-menu li li a,
+    .sf-menu li li li a{
+        font-size: 1.9rem;
+        padding: 1.8rem 1rem 1.8rem 2rem;
+        line-height: 2.5rem}
+    .info-top-left{
+        top: 10%;
+        left: 5%}
+    .info-top-right{
+        top: 10%;
+        right: 5%}
+    .info-bottom-left{
+        bottom: 10%;
+        left: 5%}
+    .info-bottom-right{
+        bottom: 10%;
+        right: 5%}
+    #gallery-view li{
+        width: 165px;
+        height: 165px}
+    .abgne-carousel .frame{
+        margin: 0 auto}
+    .catlog-date{
+        width: 11%}
+    .back-to-top-wrapper{ 
+        right: 5rem;
+        bottom: 14rem}  
+    .book-thumbnail span{
+        height: 250px}
+    .book-price{
+        width: 25%}
+    h1{
+        width: 480px;
+        height: 85px;
+        margin-top: 30px}             
 }
 
 @media (max-width:1400px) {
-.book-thumbnail li{
-    margin: 0 6px 30px}
-.book-thumbnail span{
-    height: 200px}
-#box-top{
-    width: 48%;}
-#toolbar{
-    width: 45%}
-.project-date{
-    width:28%}
+    .book-thumbnail li{
+        margin: 0 6px 30px}
+    .book-thumbnail span{
+        height: 200px}
+    #box-top{
+        width: 48%;}
+    #toolbar{
+        width: 45%}
+    .project-date{
+        width:28%}
 }
 
 @media (max-width:1300px) {
-.booking-option{ width:18%}
-.booking-title{ width:25%}
-.booking-room{ width: 25%}
-.booking-date,
-.booking-time{ width:14%}
+    .booking-option{ width:18%}
+    .booking-title{ width:25%}
+    .booking-room{ width: 25%}
+    .booking-date,
+    .booking-time{ width:14%}
 }    
 
 /*
@@ -112,237 +112,242 @@ h1{
 =====================================
 */
 @media (max-width:1110px) { /*1000*/
-/*#menu{ display: block}  */ 
-.flickity-prev-next-button {
-    width: 30px;
-    height: 30px}
-#mobile-topbar{
-    display: block;
-    /*justify-content: space-between;*/
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    height: 70px;
-    background: #941E2D url(../images/bg_header-red2.png) top center;
-    padding: 5px 15px 0;
-    border-bottom: 2px solid #342D2D;
-    box-shadow: 0 2px 15px #4e4545}
-#mlogo,
-#mmenu{
-    display: block;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden}    
-#mlogo{
-    width: 331px;
-    height: 55px;
-    background: url(../images/intranet-LOGO.png) no-repeat;background-size:contain;}
-#mmenu{
-    position: absolute;
-    top: 16px;
-    right: 25px;
-    width: 35px;
-    height: 35px;
-    background: url(../images/icon-menu.svg) no-repeat;
-    background-size: cover}            
-#wrap{ padding-top: 70px}
-header,   
-#box-top,
-#top-links,    
-#nav-top{ display: none}
-/* h1 a{
-    width: 320px;
-    height: 78px;
-    margin-top: 46px}
-#box-top{ width: 65%}
-.sf-menu a{ padding: 1.8rem 2.4rem}
-.sf-menu ul#oo{ left: -58%} */
-.lightbox .form-input{ width: 350px}
+    /*#menu{ display: block}  */ 
+    .flickity-prev-next-button {
+        width: 30px;
+        height: 30px}
+    #mobile-topbar{
+        display: block;
+        /*justify-content: space-between;*/
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height: 70px;
+        background: #941E2D url(../images/bg_header-red2.png) top center;
+        padding: 5px 15px 0;
+        border-bottom: 2px solid #342D2D;
+        box-shadow: 0 2px 15px #4e4545}
+    #mlogo,
+    #mmenu{
+        display: block;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden}    
+    #mlogo{
+        width: 331px;
+        height: 55px;
+        background: url(../images/intranet-LOGO.png) no-repeat;background-size:contain;}
+    #mmenu{
+        position: absolute;
+        top: 16px;
+        right: 25px;
+        width: 35px;
+        height: 35px;
+        background: url(../images/icon-menu.svg) no-repeat;
+        background-size: cover}            
+    #wrap{ padding-top: 70px}
+    header,   
+    #box-top,
+    #top-links,    
+    #nav-top{ display: none}
+    /* h1 a{
+        width: 320px;
+        height: 78px;
+        margin-top: 46px}
+    #box-top{ width: 65%}
+    .sf-menu a{ padding: 1.8rem 2.4rem}
+    .sf-menu ul#oo{ left: -58%} */
+    .lightbox .form-input{ width: 350px}
 
-#ftr-main{ 
-    justify-content: space-around;
-    padding: 20px 0;
-    flex-wrap: wrap}
-#ftrdown-left{ 
-    width: 100%;
-    text-align: center}
-#ftrdown-left h3{ margin: 0 auto}
-.info-main{ padding: 10px 15px}
-.info-main h2{ 
-    font-size: 2.5rem;
-    line-height: 3.8rem}
-.back-to-top-wrapper{ bottom: 4.5rem}    
-.back-to-top-link img{
-    width: 50px;
-    height: 50px}
-#container-subnav{ width: 25%}               
-#backhome{ width: 100%}
-#subnav-title{ display: block}
-.pastdirector-list{
-    width: 33%}
-.advisory-info{ 
-    width: 100%}
-.event-info{
-    width: 84%}
-.event-option{
-    width: 15%}
-.positions-type{ 
-    width: 25%}
-.positions-item h3{ 
-    width: 53%}
-.positions-time{ 
-    width: 20%}
-.pic_museum{
-    width: 50%}
-.pic_archives{
-    width: 20%}
-.pic_fsnl{
-    width: 55%}
-.fellows-departments{
-    width: 15%}
-.ca-jobtitle{
-    width: 18%}
-.staff-name{
-    width: 13%}
-.staff-jobtitle{
-    width: 15%}
-.staff-contact{
-    width: 33%}
-.staff-team{
-    width: 15%}
-.dtime{
-    width: 100%}
-.dteacher{
-    width: 40%}
-.dphone{
-    width: 59%}
-.doctors-info{ 
-    width: 70%}
-#fellows-info{
-    width: 75%}
-#fellows-summary{
-    display: block}
-#fellows-concant,
-#fellows-education{
-    width: 100%}
-#fellows-education{
-    border-left: none;
-    padding-left: 0}
-#gallery-view li{
-    width: 155px;
-    height: 155px}
-.book-thumbnail span{
-    height: 170px}
-.pub-year{
-    width: 12%}
-.pub-title{
-    width: 25%}
-.pub-list{
-    width: 62%}
-.publsit-type02 li{
-    width: 49%}
-#book-info .info-name{
-    width: 25%}
-#book-info .info-value{
-    width: 70%;}
-.inperiod{ 
-    width: 25%}
-.box-index{
-    display: block;}
-#box-indexevent{
-    display: block;
-    width: 100%;
-    margin-bottom:15px;}
-#box-indexnews{
-    display: block;
-    width: 100%}
-#hotnews,
-#lastnews-list{
-    display: inline-block;
-    width: 49%;
-    vertical-align: middle}
-#box-indexbook{ 
-    display: inline-block;
-    width: 42%;
-    padding-top: 30px;
-    margin-right: 7%;
-    vertical-align: top;}
-#box-indexjob{ 
-    display: inline-block;
-    width: 50%;
-    padding-top: 30px;}
-#box-indexlink{
-    width: 100%;
-    padding-top: 20px;}
-.indexlink-list{
-    justify-content: flex-start}
-.indexlink-list li{
-    width: 32%;
-    margin: 0 5px 15px;}
-.catlog-number{ 
-    width: 10%}
-.catlog-type{
-    width: 16%}
-.catlog-writer{
-    width: 14%}
-.catlog-date{
-    width: 14%}
-.book-catalog-main li{
-    display: block}
-.catalog-article{
-    width: 100%;
-    padding: 0 0 15px 0}
-.catalog-auther{
-    width: 100%;
-    text-align: left}
-.catalog-auther::before{
-    display: inline-block;
-    content: url(../images/pot-profile.svg);
-    width: 22px;
-    height: 22px;
-    vertical-align: text-top;
-    opacity: .6;
-    margin: 1px 8px 0 0}
-#page-title{ display: block}
-#toolbar{
-    display: block; 
-    width: 100%;
-    margin-top: 15px;
-    text-align: left}
-.book-time{
-    width: 14%}
-.book-price{
-    width: 31.5%}
-#breadcrumb p{ 
-    display: inline-block}
-#breadcrumb span::before{
-    content: "|";
-    padding: 0 10px} 
-.epaper-list li{
-    width: 30%}
-.phoneTable td.phone-name{
-    width:25%}
-#phone-toolbar,
-#booking-toolbar{
-    display: block}
-#phone-toolbar-option{
-    margin-bottom: 20px}
-.date-picker{
-    margin: 15px 0 0 10px;
-}
-.booking-date,
-.booking-option,
-.booking-time{ width: 15%}
-.booking-room{ width: 18%}
-.booking-option a{
-    display: block;
-    margin: 8px 0} 
-.mylabel,
-#booking-list .meeting-note{
-    display: block; 
-    width: 100%;
-    text-align: left}
-.mylabel-day{ margin-top:20px}    
+    #ftr-main{ 
+        justify-content: space-around;
+        padding: 20px 0;
+        flex-wrap: wrap}
+    #ftrdown-left{ 
+        width: 100%;
+        text-align: center}
+    #ftrdown-left h3{ margin: 0 auto}
+    .info-main{ padding: 10px 15px}
+    .info-main h2{ 
+        font-size: 2.5rem;
+        line-height: 3.8rem}
+    .back-to-top-wrapper{ bottom: 4.5rem}    
+    .back-to-top-link img{
+        width: 50px;
+        height: 50px}
+    #container-subnav{ width: 25%}               
+    #backhome{ width: 100%}
+    #subnav-title{ display: block}
+    .pastdirector-list{
+        width: 33%}
+    .advisory-info{ 
+        width: 100%}
+    .event-info{
+        width: 84%}
+    .event-option{
+        width: 15%}
+    .positions-type{ 
+        width: 25%}
+    .positions-item h3{ 
+        width: 53%}
+    .positions-time{ 
+        width: 20%}
+    .pic_museum{
+        width: 50%}
+    .pic_archives{
+        width: 20%}
+    .pic_fsnl{
+        width: 55%}
+    .fellows-departments{
+        width: 15%}
+    .ca-jobtitle{
+        width: 18%}
+    .staff-name{
+        width: 13%}
+    .staff-jobtitle{
+        width: 15%}
+    .staff-contact{
+        width: 33%}
+    .staff-team{
+        width: 15%}
+    .dtime{
+        width: 100%}
+    .dteacher{
+        width: 40%}
+    .dphone{
+        width: 59%}
+    .doctors-info{ 
+        width: 70%}
+    #fellows-info{
+        width: 75%}
+    #fellows-summary{
+        display: block}
+    #fellows-concant,
+    #fellows-education{
+        width: 100%}
+    #fellows-education{
+        border-left: none;
+        padding-left: 0}
+    #gallery-view li{
+        width: 155px;
+        height: 155px}
+    .book-thumbnail span{
+        height: 170px}
+    .pub-year{
+        width: 12%}
+    .pub-title{
+        width: 25%}
+    .pub-list{
+        width: 62%}
+    .publsit-type02 li{
+        width: 49%}
+    #book-info .info-name{
+        width: 25%}
+    #book-info .info-value{
+        width: 70%;}
+    .inperiod{ 
+        width: 25%}
+    .box-index{
+        display: block;}
+    #box-indexevent{
+        display: block;
+        width: 100%;
+        margin-bottom:15px;}
+    #box-indexnews{
+        display: block;
+        width: 100%}
+    #hotnews,
+    #lastnews-list{
+        display: inline-block;
+        width: 49%;
+        vertical-align: middle}
+    #box-indexbook{ 
+        display: inline-block;
+        width: 42%;
+        padding-top: 30px;
+        margin-right: 7%;
+        vertical-align: top;}
+    #box-indexjob{ 
+        display: inline-block;
+        width: 50%;
+        padding-top: 30px;}
+    #box-indexlink{
+        width: 100%;
+        padding-top: 20px;}
+    .indexlink-list{
+        justify-content: flex-start}
+    .indexlink-list li{
+        width: 32%;
+        margin: 0 5px 15px;}
+    .catlog-number{ 
+        width: 10%}
+    .catlog-type{
+        width: 16%}
+    .catlog-writer{
+        width: 14%}
+    .catlog-date{
+        width: 14%}
+    .book-catalog-main li{
+        display: block}
+    .catalog-article{
+        width: 100%;
+        padding: 0 0 15px 0}
+    .catalog-auther{
+        width: 100%;
+        text-align: left}
+    .catalog-auther::before{
+        display: inline-block;
+        content: url(../images/pot-profile.svg);
+        width: 22px;
+        height: 22px;
+        vertical-align: text-top;
+        opacity: .6;
+        margin: 1px 8px 0 0}
+    #page-title{ display: block}
+    #toolbar{
+        display: block; 
+        width: 100%;
+        margin-top: 15px;
+        text-align: left}
+    .book-time{
+        width: 14%}
+    .book-price{
+        width: 31.5%}
+    #breadcrumb p{ 
+        display: inline-block}
+    #breadcrumb span::before{
+        content: "|";
+        padding: 0 10px} 
+    .epaper-list li{
+        width: 30%}
+    .phoneTable td.phone-name{
+        width:25%}
+    #phone-toolbar,
+    #booking-toolbar{
+        display: block}
+    #phone-toolbar-option{
+        margin-bottom: 20px}
+    .date-picker{
+        margin: 15px 0 0 10px;
+    }
+    .booking-date,
+    .booking-option,
+    .booking-time{ width: 15%}
+    .booking-room{ width: 18%}
+    .booking-option a{
+        display: block;
+        margin: 8px 0} 
+    .mylabel,
+    #booking-list .meeting-note{
+        display: block; 
+        width: 100%;
+        text-align: left}
+    .mylabel-day{ margin-top:20px}
+    #drive-list .drive-photo{
+        flex-basis: 120px}
+    #drive-list .drive-info li{
+        width: 99%
+    }
 }
 
 /*
@@ -351,137 +356,141 @@ header,
 =====================================
 */
 @media (max-width:880px) { /*750*/
-.info-main h2{ 
-    font-size: 2rem;
-    line-height: 3rem}
-.back-to-top-wrapper{ display: none}
+    .info-main h2{ 
+        font-size: 2rem;
+        line-height: 3rem}
+    .back-to-top-wrapper{ display: none}
 
-#container-subnav{ display: none}
-#container-main{ 
-    float: none;
-    width: 95%;
-    margin: 0 auto;
-    padding-top: 0}
-#page-control{
-    width: 65%}
-#page-number{
-    display: block;
-    width: 100%;
-    margin-bottom: 15px}
-#bulletin-main{
-    display: block}
-#gallery-list li{
-    width: 50%}
-#gallery-view li{
-    width: 150px;
-    height: 150px}
-#publications-article > 
-.editoral-board-auther p{
-    width: 49%}
-#buy-list li{
-    width: 100%;
-    border-bottom: 1px dashed #cccccc;
-    padding-bottom: 8px;
-    margin-bottom: 15px}
-#buy-list hr{
-    display: none}
-#book-summary{
-    display: block}
-#book-cover{
-    width: 50%;
-    margin: 0 auto 30px auto;}
-#book-info{
-    width: 100%}
-#book-info .info-name{
-    width: 15%}
-#book-info .info-value{
-    width: 80%;}
-#book-other{
-    display: block}
-.abgne-carousel .btn .prev,
-.abgne-carousel .btn .next{
-    display: none}
-.abgne-carousel .frame {
-    width: 100%;	
-    height: auto}
-.abgne-carousel ul {
-    position: static;
-    width: 100%}
-.abgne-carousel li{
-    display: inline-block;
-    position: relative;
-    float: none;
-    width: 49%;
-    height: 600px;
-    margin: 0 0 15px 0;
-    padding: 15px;}
-.ev-thumb{
-    display: block;
-    width: 100%;
-    height: 460px;
-    overflow: hidden;
-    margin-bottom: 15px;}
-.btn_reg a{
-    bottom: 120px;
-    right: 0}
-#box-indexnews{
-    padding-top: 30px}
-#hotnews{
-    width: 40%;
-    margin-top: 0}
-#lastnews-list{
-    width: 59%;
-    margin-top: 0}
-.indexlink-list li{
-    width: 46%;
-    margin: 0 10px 15px}
-.indexlink-list li a{
-    padding-left: 45px}
-.catlog-table td{
-    padding: 0}
-.catlog-number,
-.catlog-type,
-.catlog-writer,
-.catlog-date,
-.catlog-page{
-    width: 99%}
-#webmap li li li{
-    width: 49%}
-#re-search{
-    width: 50%}
-#academic-main ul{
-    padding-top: 20px}   
-#map-guide{
-    padding: 3px 0 3px 50px}
-.book-thumbnail span{
-    height: 160px}
-#box-copyright{
-    font-size: 1.4rem;
-    line-height: 2.2rem;
-    padding: 8px 15px}
-#book-info .taglist a{
-    margin-bottom: 15px}
-.phoneTable td.phone-name{
-    width:100%}
-#phone-use,
-#phone-print{
-    display: block;
-    width: 100%;
-    margin-top: 20px;
-    vertical-align: top}
-/* #phone-print ul{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:left;
-    padding-top: 15px;}
-#phone-print li{
-    margin-right: 20px;}
-#phone-print li::before{
-    content: none;} */
-.booking-option a{
-    display: inline;
-    margin: 0 5px;
-    vertical-align:top}
+    #container-subnav{ display: none}
+    #container-main{ 
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 0}
+    #page-control{
+        width: 65%}
+    #page-number{
+        display: block;
+        width: 100%;
+        margin-bottom: 15px}
+    #bulletin-main{
+        display: block}
+    #gallery-list li{
+        width: 50%}
+    #gallery-view li{
+        width: 150px;
+        height: 150px}
+    #publications-article > 
+    .editoral-board-auther p{
+        width: 49%}
+    #buy-list li{
+        width: 100%;
+        border-bottom: 1px dashed #cccccc;
+        padding-bottom: 8px;
+        margin-bottom: 15px}
+    #buy-list hr{
+        display: none}
+    #book-summary{
+        display: block}
+    #book-cover{
+        width: 50%;
+        margin: 0 auto 30px auto;}
+    #book-info{
+        width: 100%}
+    #book-info .info-name{
+        width: 15%}
+    #book-info .info-value{
+        width: 80%;}
+    #book-other{
+        display: block}
+    .abgne-carousel .btn .prev,
+    .abgne-carousel .btn .next{
+        display: none}
+    .abgne-carousel .frame {
+        width: 100%;	
+        height: auto}
+    .abgne-carousel ul {
+        position: static;
+        width: 100%}
+    .abgne-carousel li{
+        display: inline-block;
+        position: relative;
+        float: none;
+        width: 49%;
+        height: 600px;
+        margin: 0 0 15px 0;
+        padding: 15px;}
+    .ev-thumb{
+        display: block;
+        width: 100%;
+        height: 460px;
+        overflow: hidden;
+        margin-bottom: 15px;}
+    .btn_reg a{
+        bottom: 120px;
+        right: 0}
+    #box-indexnews{
+        padding-top: 30px}
+    #hotnews{
+        width: 40%;
+        margin-top: 0}
+    #lastnews-list{
+        width: 59%;
+        margin-top: 0}
+    .indexlink-list li{
+        width: 46%;
+        margin: 0 10px 15px}
+    .indexlink-list li a{
+        padding-left: 45px}
+    .catlog-table td{
+        padding: 0}
+    .catlog-number,
+    .catlog-type,
+    .catlog-writer,
+    .catlog-date,
+    .catlog-page{
+        width: 99%}
+    #webmap li li li{
+        width: 49%}
+    #re-search{
+        width: 50%}
+    #academic-main ul{
+        padding-top: 20px}   
+    #map-guide{
+        padding: 3px 0 3px 50px}
+    .book-thumbnail span{
+        height: 160px}
+    #box-copyright{
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        padding: 8px 15px}
+    #book-info .taglist a{
+        margin-bottom: 15px}
+    .phoneTable td.phone-name{
+        width:100%}
+    #phone-use,
+    #phone-print{
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        vertical-align: top}
+    /* #phone-print ul{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:left;
+        padding-top: 15px;}
+    #phone-print li{
+        margin-right: 20px;}
+    #phone-print li::before{
+        content: none;} */
+    .booking-option a{
+        display: inline;
+        margin: 0 5px;
+        vertical-align:top}
+    #drive-toolbar li{
+        width: 30%;
+        margin: 5px;
+        text-align: center;}
 }
 
 /*
@@ -490,146 +499,146 @@ header,
 =====================================
 */
 @media (max-width: 615px) { /*573*/
-#container{ 
-    padding: 20px 0 60px}
-#ftr-main{ padding: 30px 0 60px}    
-.pastdirector-list{
-    width: 49%}
-.director-photo{
-    margin-bottom: 15px}
-#bulletin-toolbar{
-    display: block}
-#toolbar-option{
-    margin-bottom: 10px}
-.event-item{
-    display: block}
-.event-info,
-.event-option{
-    display: block;
-    width: 100%}
-.event-option a.mybtn{
-    display: inline-block;
-    width: 40%;
-    margin: 5% 2% 1%}
-#page-control{
-    width: 75%}
-.positions-type{ width: 30%}
-.positions-time{ width: 100%}
-.positions-item h3{ width: 65%}
-.pic_fsnl{
-    float: none;
-    width: 100%;
-    margin: 30px 0 10px}
-.pic_archives{
-    width: 30%}
-#academic-main ul{
-    justify-content: space-between}
-#academic-main li{
-    width: 41%;
-    margin: 3% 3%}
-#down-option > #bulletin-annex{
-    width: 100%;
-    float: none;
-    margin-bottom: 20px}
-.fellows-jobtitle{
-    width: 22%}
-.fellows-departments{
-    width: 18%}
-.ca-jobtitle{
-    width: 22%}
-.staff-name{
-    width: 15%}
-.staff-jobtitle{
-    width: 18%}
-.doctors-info{ 
-    width: 100%}
-#fellows-info{
-    width: 65%}
-.international-item{
-    display: block}
-.international-item h3{
-    margin-bottom: 5px}
-.international-item h3::before{
-    margin: 0 15px 0 0}
-.international-item ul{
-    padding-left: 0}
-.international-item li{
-    padding-bottom: 10px}
-.book-thumbnail li{
-    width: 47%}
-.book-thumbnail span{
-    height: 300px}
-.pub-year{
-    width: 12%;
-    text-align: left;}
-.pub-title{
-    width: 50%}
-.pub-list{
-    width: 100%}
-#book-info li{
-    display: block;
-    padding-bottom: 10px;
-    border-bottom: 1px dashed #e1e1e1;}
-#book-info .info-name,
-#book-info .info-value{
-    width: 100%;
-    text-align: left} 
-.abgne-carousel li{
-    display: inline-block;
-    position: relative;
-    float: none;
-    width: 49%;
-    height: 500px;
-    margin: 0 0 30px 0;
-    padding: 15px;}
-.ev-thumb{
-    display: block;
-    width: 100%;
-    height: 350px;
-    overflow: hidden;
-    margin-bottom: 15px;}
-.btn_reg a{
-    bottom: 120px;
-    right: 0}
-#box-indexbook{ 
-    width: 49%;
-    margin-right: 2%}
-#box-indexjob{ 
-    width: 48%}
-#catlog-keyword{
-    display: block;
-    padding-bottom: 15px}
-#catlog-keyword h4{
-    margin-bottom: 15px}
-#catlog-keyword .mybtn{
-    padding: 4px 8px}
-#list-option{
-    margin-bottom: 15px}
-#subcontainer{
-    width: 100%}
-#re-search{
-    width: 40%}
-.pub-list ul{
-    padding-top: 5px;}  
-.pub-list li{
-    padding: 0;}
-#book-info .taglist{
-    padding-top: 15px}
-#breadcrumb .accesskey{
-    display: block;
-    margin-bottom: 8px}
-#breadcrumb span{
-    display: block;
-    width: 100%}
-#breadcrumb span::before{
-    content: " ";
-    padding: 0}
-.epaper-list li{
-    width: 45%}
-.booking-calendar td{ text-align: center;}
-.event-item{ display: none}
-.booking-number{ display: block;}
-#booking-list .check-list span{ display: block} 
+    #container{ 
+        padding: 20px 0 60px}
+    #ftr-main{ padding: 30px 0 60px}    
+    .pastdirector-list{
+        width: 49%}
+    .director-photo{
+        margin-bottom: 15px}
+    #bulletin-toolbar{
+        display: block}
+    #toolbar-option{
+        margin-bottom: 10px}
+    .event-item{
+        display: block}
+    .event-info,
+    .event-option{
+        display: block;
+        width: 100%}
+    .event-option a.mybtn{
+        display: inline-block;
+        width: 40%;
+        margin: 5% 2% 1%}
+    #page-control{
+        width: 75%}
+    .positions-type{ width: 30%}
+    .positions-time{ width: 100%}
+    .positions-item h3{ width: 65%}
+    .pic_fsnl{
+        float: none;
+        width: 100%;
+        margin: 30px 0 10px}
+    .pic_archives{
+        width: 30%}
+    #academic-main ul{
+        justify-content: space-between}
+    #academic-main li{
+        width: 41%;
+        margin: 3% 3%}
+    #down-option > #bulletin-annex{
+        width: 100%;
+        float: none;
+        margin-bottom: 20px}
+    .fellows-jobtitle{
+        width: 22%}
+    .fellows-departments{
+        width: 18%}
+    .ca-jobtitle{
+        width: 22%}
+    .staff-name{
+        width: 15%}
+    .staff-jobtitle{
+        width: 18%}
+    .doctors-info{ 
+        width: 100%}
+    #fellows-info{
+        width: 65%}
+    .international-item{
+        display: block}
+    .international-item h3{
+        margin-bottom: 5px}
+    .international-item h3::before{
+        margin: 0 15px 0 0}
+    .international-item ul{
+        padding-left: 0}
+    .international-item li{
+        padding-bottom: 10px}
+    .book-thumbnail li{
+        width: 47%}
+    .book-thumbnail span{
+        height: 300px}
+    .pub-year{
+        width: 12%;
+        text-align: left;}
+    .pub-title{
+        width: 50%}
+    .pub-list{
+        width: 100%}
+    #book-info li{
+        display: block;
+        padding-bottom: 10px;
+        border-bottom: 1px dashed #e1e1e1;}
+    #book-info .info-name,
+    #book-info .info-value{
+        width: 100%;
+        text-align: left} 
+    .abgne-carousel li{
+        display: inline-block;
+        position: relative;
+        float: none;
+        width: 49%;
+        height: 500px;
+        margin: 0 0 30px 0;
+        padding: 15px;}
+    .ev-thumb{
+        display: block;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        margin-bottom: 15px;}
+    .btn_reg a{
+        bottom: 120px;
+        right: 0}
+    #box-indexbook{ 
+        width: 49%;
+        margin-right: 2%}
+    #box-indexjob{ 
+        width: 48%}
+    #catlog-keyword{
+        display: block;
+        padding-bottom: 15px}
+    #catlog-keyword h4{
+        margin-bottom: 15px}
+    #catlog-keyword .mybtn{
+        padding: 4px 8px}
+    #list-option{
+        margin-bottom: 15px}
+    #subcontainer{
+        width: 100%}
+    #re-search{
+        width: 40%}
+    .pub-list ul{
+        padding-top: 5px;}  
+    .pub-list li{
+        padding: 0;}
+    #book-info .taglist{
+        padding-top: 15px}
+    #breadcrumb .accesskey{
+        display: block;
+        margin-bottom: 8px}
+    #breadcrumb span{
+        display: block;
+        width: 100%}
+    #breadcrumb span::before{
+        content: " ";
+        padding: 0}
+    .epaper-list li{
+        width: 45%}
+    .booking-calendar td{ text-align: center;}
+    .event-item{ display: none}
+    .booking-number{ display: block;}
+    #booking-list .check-list span{ display: block}
 }
     
 /*
@@ -638,293 +647,333 @@ header,
 =====================================
 */
 @media (max-width: 455px) { /*360*/
-:focus{ outline:none}
-#mlogo{
-    width: 250px;
-    height: 44px;
-    margin-top: 8px;} 
-.flickity-prev-next-button {
-    display: none}    
-.info-main h2{ 
-    font-size: 1.8rem;
-    line-height: 3rem}  
-.box-social{ margin-top: 25px}
-.director-info span,
-.advisory-info span{
-    display: block;
-    margin-top: 10px}
-.pastdirector-list{
-    width: 100%}
-#departments-title{
-    display: block}
-#departments-title p{
-    padding-top: 8px}
-.other-links span{
-    display: block}
-#page-control{
-    width: 100%}
-.event-time,
-.event-place{
-    margin-bottom: 10px}
-.event-time span,
-.event-place span{
-    display: block}
-.toolbar-event-type{
-    /* display: block; */
-    margin-bottom: 10px}
-.positions-type,
-.positions-item h3{ width: 100%}
-#bulletin-poster{
-    width: 95%;
-    margin: 0 auto 20px auto}
-#bulletin-article img{
-    float: none;
-    margin: 20px auto}
-.pic_fsnl{
-    width: 100%}
-.pic_museum{
-    float: none;
-    width: 100%;
-    margin: 30px 0 10px}
-.pic_archives{
-    width: 35%}
-#academic-main ul{
-    padding: 20px 0}
-#academic-main li{
-    width: 100%;
-    margin: 3% 0}
-.dteacher,
-.dphone{
-    width: 100%}
-#list-editinfo,
-#fellows-about{
-    display: block}
-#fellows-info{
-    width: 100%}
-.fellows-photo{
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 30px auto}
-#fellows-concant li{
-    word-break: break-all}
-#tabs-title li {
-    padding:0 5px;
-    border-right: none}
-#tabs-title a { 
-    font-size: 1.7rem}
-.tabs-content{ 
-    text-align: left;
-    padding:15px 5px}
-.tabs-content summary{
-    letter-spacing: 0}
-#gallery-list li{
-    width: 100%}
-#gallery-view li{
-    width: 145px;
-    height: 145px}
-.book-thumbnail li{
-    width: 70%;
-    margin: 0 auto 30px auto;
-    padding: 15px 10px}
-.book-thumbnail span{
-    height:auto}
-.periodical-item summary::before{
-    margin: 0 15px 0 10px}
-.epaper-list{
-    padding: 30px 0 15px 0
-}
-.pub-year{
-    width: 20%;
-    text-align: left;}
-.pub-title{
-    width: 79%}
-.publsit-type02 li{
-    display: inline-block;
-    width: 100%}
-#publications-article p{
-    text-align: left}
-#publications-article ul,
-#publications-article ol{
-    padding: 15px 0 15px 30px}
-#publications-article ul li,
-#publications-article ol li{
-    text-align: left}
-.auther-list span{
-    display: block}
-#publications-article > .section4-list li span,
-#publications-article > .section4-list li em{ 
-    display: block;
-    width: 100%;
-    padding-left: 0}
-#publications-article > 
-.editoral-board-auther p{
-    width: 100%}
-#book-catalog-title{
-    display: block}
-#book-catalog h3{
-    margin-bottom: 15px}
-#book-catalog-list{
-    display: flex;
-    flex-wrap: wrap}
-.journal-title .title-01{
-    width: 69%}
-.journal-title .title-02{
-    width: 30%;
-    padding: 0}
-#book-cover{
-    width: 70%;
-    margin: 0 auto 20px auto;}
-#book-other label{
-    display: block;
-    width: 100%;
-    padding-bottom: 5px}
-#book-other select{
-    margin-bottom: 10px}
-#organization-big{
-    display: none}
-#organization-samll{
-    display: block}
-#organization-info{
-    padding: 15px 0}
-.inperiod{ 
-    width: 40%}
-.incatalog{
-    width: 80%}
-.search-and-item .myinput{
-    margin: 8px 5px 10px 0}
-.abgne-carousel li{
-    display: block;
-    position: relative;
-    float: none;
-    width: 90%;
-    height: 630px;
-    margin: 0 auto 30px auto;
-    padding: 15px;}
-.ev-thumb{
-    display: block;
-    width: 100%;
-    height: 430px;
-    overflow: hidden;
-    margin-bottom: 15px;}
-.btn_reg a{
-    bottom: 175px;
-    right: 0}
-#hotnews,
-#lastnews-list{
-    display: block;
-    width: 100%;
-    margin-bottom: 10px}
-#box-indexbook{ 
-    width: 100%;
-    margin: 0}
-#box-indexjob{ 
-    width: 100%}
-.indexlink-list li{
-    width: 100%;
-    margin: 0 0 15px}
-.indexlink-list li a{
-    padding-left: 45px}
-#list-option{
-    padding-bottom: 8px;
-    border-bottom: 1px solid #8d8d8d}
-#list-option select{
-    margin-right: 5px}
-#list-option input{
-    margin: 15px 0}
-.catlog-block{
-    display: block}
-.catlog-block li div:first-child{
-    width: 100%;
-    text-align: center;
-    margin-right: 0;
-    padding-right: 0;
-    background-color:#d1bbbb}
-.catlog-block li div:nth-child(2){
-    width: 100%;
-    padding: 5px 10px;
-    text-align: left}
-.catlog-block li div:nth-child(even){
-    background-color:#e9e9e9}
-#webmap li li{
-    padding: 10px}
-#webmap li li li{
-    display: block;
-    width: 100%}
-.faq-item{
-    width: 100%}
-#msearch{
-    display: block}
-#msearch input{
-    width: 100%;
-    margin-bottom: 15px;}
-#msearch .m-send{
-    display: block;
-    width: 25%;
-    margin: 0 auto}
-#map-big{
-    display: none}
-#map-samll{
-    display: block}
-#map-guide{
-    padding: 3px 0 3px 35px}
-.search-type,   
-#selectall,
-.box-search li{
-    display: block;
-    margin-left: 15px}
-.visibility{
-    display: none} 
-/* #toolbar-search label{ 
-    display:none} */
-.asiamojor-note{
-    padding-left: 39px; 
-    text-indent: -28px}
-.bookTagsList li{
-    display: block;
-    width:100%;
-    padding: 5% 0;
-    border-bottom: 1px dashed #bebebe;
-}
-.bookTagsList li img{
-    display: block;
-    width: 70%;
-    height: auto;
-    margin: 0 auto 20px auto
-}
-.bookInfo{
-    display:block;
-    padding-left: 0
-}
-.event-speak{ 
-    display: block;
-    margin: 0 0 15px 0;}
-.mid-1{padding:25px}
-.mid-1 li:first-child,
-.mid-1 li:nth-child(2),
-.mid-1 li:nth-child(3),
-.mid-1 li:nth-child(4){
-    display:block}
-.rule-item{
-    width: 95%}
-#main-epaper,
-#main-form{
-    padding: 30px 0;}
-#main-epaper ul,
-#main-form ul{
-    padding: 20px 30px}
-.epaper-list li{
-    width: 100%;
-    margin: 0 0 20px 8px}
-#phone-note{
-    padding-top: 30px;
-    border-top: none}
-.phone-inputxt,
-.long-inputxt{ width: 79%}
-#booking-list .meeting-time{ 
-    display:block;
-    margin: 15px 0 0 0;}
-#booking-list .meeting-time label{
-    margin-left: 0}
+    :focus{ outline:none}
+    #mlogo{
+        width: 250px;
+        height: 44px;
+        margin-top: 8px;} 
+    .flickity-prev-next-button {
+        display: none}    
+    .info-main h2{ 
+        font-size: 1.8rem;
+        line-height: 3rem}  
+    .box-social{ margin-top: 25px}
+    .director-info span,
+    .advisory-info span{
+        display: block;
+        margin-top: 10px}
+    .pastdirector-list{
+        width: 100%}
+    #departments-title{
+        display: block}
+    #departments-title p{
+        padding-top: 8px}
+    .other-links span{
+        display: block}
+    #page-control{
+        width: 100%}
+    .event-time,
+    .event-place{
+        margin-bottom: 10px}
+    .event-time span,
+    .event-place span{
+        display: block}
+    .toolbar-event-type{
+        /* display: block; */
+        margin-bottom: 10px}
+    .positions-type,
+    .positions-item h3{ width: 100%}
+    #bulletin-poster{
+        width: 95%;
+        margin: 0 auto 20px auto}
+    #bulletin-article img{
+        float: none;
+        margin: 20px auto}
+    .pic_fsnl{
+        width: 100%}
+    .pic_museum{
+        float: none;
+        width: 100%;
+        margin: 30px 0 10px}
+    .pic_archives{
+        width: 35%}
+    #academic-main ul{
+        padding: 20px 0}
+    #academic-main li{
+        width: 100%;
+        margin: 3% 0}
+    .dteacher,
+    .dphone{
+        width: 100%}
+    #list-editinfo,
+    #fellows-about{
+        display: block}
+    #fellows-info{
+        width: 100%}
+    .fellows-photo{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 30px auto}
+    #fellows-concant li{
+        word-break: break-all}
+    #tabs-title li {
+        padding:0 5px;
+        border-right: none}
+    #tabs-title a { 
+        font-size: 1.7rem}
+    .tabs-content{ 
+        text-align: left;
+        padding:15px 5px}
+    .tabs-content summary{
+        letter-spacing: 0}
+    #gallery-list li{
+        width: 100%}
+    #gallery-view li{
+        width: 145px;
+        height: 145px}
+    .book-thumbnail li{
+        width: 70%;
+        margin: 0 auto 30px auto;
+        padding: 15px 10px}
+    .book-thumbnail span{
+        height:auto}
+    .periodical-item summary::before{
+        margin: 0 15px 0 10px}
+    .epaper-list{
+        padding: 30px 0 15px 0
+    }
+    .pub-year{
+        width: 20%;
+        text-align: left;}
+    .pub-title{
+        width: 79%}
+    .publsit-type02 li{
+        display: inline-block;
+        width: 100%}
+    #publications-article p{
+        text-align: left}
+    #publications-article ul,
+    #publications-article ol{
+        padding: 15px 0 15px 30px}
+    #publications-article ul li,
+    #publications-article ol li{
+        text-align: left}
+    .auther-list span{
+        display: block}
+    #publications-article > .section4-list li span,
+    #publications-article > .section4-list li em{ 
+        display: block;
+        width: 100%;
+        padding-left: 0}
+    #publications-article > 
+    .editoral-board-auther p{
+        width: 100%}
+    #book-catalog-title{
+        display: block}
+    #book-catalog h3{
+        margin-bottom: 15px}
+    #book-catalog-list{
+        display: flex;
+        flex-wrap: wrap}
+    .journal-title .title-01{
+        width: 69%}
+    .journal-title .title-02{
+        width: 30%;
+        padding: 0}
+    #book-cover{
+        width: 70%;
+        margin: 0 auto 20px auto;}
+    #book-other label{
+        display: block;
+        width: 100%;
+        padding-bottom: 5px}
+    #book-other select{
+        margin-bottom: 10px}
+    #organization-big{
+        display: none}
+    #organization-samll{
+        display: block}
+    #organization-info{
+        padding: 15px 0}
+    .inperiod{ 
+        width: 40%}
+    .incatalog{
+        width: 80%}
+    .search-and-item .myinput{
+        margin: 8px 5px 10px 0}
+    .abgne-carousel li{
+        display: block;
+        position: relative;
+        float: none;
+        width: 90%;
+        height: 630px;
+        margin: 0 auto 30px auto;
+        padding: 15px;}
+    .ev-thumb{
+        display: block;
+        width: 100%;
+        height: 430px;
+        overflow: hidden;
+        margin-bottom: 15px;}
+    .btn_reg a{
+        bottom: 175px;
+        right: 0}
+    #hotnews,
+    #lastnews-list{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px}
+    #box-indexbook{ 
+        width: 100%;
+        margin: 0}
+    #box-indexjob{ 
+        width: 100%}
+    .indexlink-list li{
+        width: 100%;
+        margin: 0 0 15px}
+    .indexlink-list li a{
+        padding-left: 45px}
+    #list-option{
+        padding-bottom: 8px;
+        border-bottom: 1px solid #8d8d8d}
+    #list-option select{
+        margin-right: 5px}
+    #list-option input{
+        margin: 15px 0}
+    .catlog-block{
+        display: block}
+    .catlog-block li div:first-child{
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        padding-right: 0;
+        background-color:#d1bbbb}
+    .catlog-block li div:nth-child(2){
+        width: 100%;
+        padding: 5px 10px;
+        text-align: left}
+    .catlog-block li div:nth-child(even){
+        background-color:#e9e9e9}
+    #webmap li li{
+        padding: 10px}
+    #webmap li li li{
+        display: block;
+        width: 100%}
+    .faq-item{
+        width: 100%}
+    #msearch{
+        display: block}
+    #msearch input{
+        width: 100%;
+        margin-bottom: 15px;}
+    #msearch .m-send{
+        display: block;
+        width: 25%;
+        margin: 0 auto}
+    #map-big{
+        display: none}
+    #map-samll{
+        display: block}
+    #map-guide{
+        padding: 3px 0 3px 35px}
+    .search-type,   
+    #selectall,
+    .box-search li{
+        display: block;
+        margin-left: 15px}
+    .visibility{
+        display: none} 
+    /* #toolbar-search label{ 
+        display:none} */
+    .asiamojor-note{
+        padding-left: 39px; 
+        text-indent: -28px}
+    .bookTagsList li{
+        display: block;
+        width:100%;
+        padding: 5% 0;
+        border-bottom: 1px dashed #bebebe;
+    }
+    .bookTagsList li img{
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 0 auto 20px auto
+    }
+    .bookInfo{
+        display:block;
+        padding-left: 0
+    }
+    .event-speak{ 
+        display: block;
+        margin: 0 0 15px 0;}
+    .mid-1{padding:25px}
+    .mid-1 li:first-child,
+    .mid-1 li:nth-child(2),
+    .mid-1 li:nth-child(3),
+    .mid-1 li:nth-child(4){
+        display:block}
+    .rule-item{
+        width: 95%}
+    #main-epaper,
+    #main-form{
+        padding: 30px 0;}
+    #main-epaper ul,
+    #main-form ul{
+        padding: 20px 30px}
+    .epaper-list li{
+        width: 100%;
+        margin: 0 0 20px 8px}
+    #phone-note{
+        padding-top: 30px;
+        border-top: none}
+    .phone-inputxt,
+    .long-inputxt{ width: 79%}
+    #booking-list .meeting-time{ 
+        display:block;
+        margin: 15px 0 0 0;}
+    #booking-list .meeting-time label{
+        margin-left: 0}
+    #drive-toolbar li{
+        font-size: 1.6rem;
+        width: 30%}
+    #drive-toolbar li span{
+        font-size: 1.8rem;
+        padding: 0}
+    #drive-list .drive-item{
+        display: block;
+    }
+    #drive-list .drive-photo{
+        width: 50%;
+        margin: 0 auto 30px auto;
+    }
+    #drive-list .drive-info2{
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px 0 0  0;
+        border-left: none;
+        border-top: 1px solid #e4e4e4;
+    }
+    #drive-list .drive-info2 a{
+        display: block;
+        width: 80%;
+        margin-top:15px
+    }
+    #drive-list .drive-info2 input.mybtn,
+    #drive-list .drive-info2 label.mybtn{
+        display:inline-block;
+        width: 49%;
+    }
+    .mytextarea textarea{
+        width: 100%;
+        resize: none;
+    }
+    .mytextarea input{
+        display: block;
+        width: 45%;
+        margin: 15px auto 0 auto;
+        padding: 3px 8px;
+    }
 }
 
 
@@ -944,4 +993,10 @@ header,
         bottom: 175px}
     .phone-inputxt,
     .long-inputxt{ width: 72%}
+    #drive-toolbar li{
+        font-size: 1.6rem;
+        width: 40%}
+    #drive-toolbar li span{
+        font-size: 1.8rem;
+        padding: 0}
 }
