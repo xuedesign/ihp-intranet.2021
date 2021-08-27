@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Institute of History and Philology, Academia Sinica" />
-    <title>線上服務-會議室借用與查詢｜史語所所內專區</title>
-    <meta name="description" content="線上服務-會議室借用與查詢"/><!---頁面描述-->
+    <title>線上服務-財物資源共享平台｜史語所所內專區</title>
+    <meta name="description" content="線上服務-財物資源共享平台"/><!---頁面描述-->
     <link rel="shortcut icon"  href="../images/favicon.ico"/>
     <link rel="icon" href="../images/favicon.ico"/>
     <link rel="apple-touch-icon" href="../images/appicon.png">
@@ -144,7 +144,7 @@
     <div id="container">
         <div id="breadcrumb">
             <a id="main-content" href="#main-content" title="主要內容區" accesskey="C" class="accesskey">:::</a>
-            <p>帳號：系統管理員 (ihp@asihp.net)<span>位置：線上服務 &gt; 會議室借用與查詢</span></p>
+            <p>帳號：系統管理員 (ihp@asihp.net)<span>位置：線上服務 &gt; 財物資源共享平台</span></p>
         </div>
 
         <div id="container-two">
@@ -158,9 +158,9 @@
                 <!---在該單元時，a須加上class="nowin"-->
                 <ul id="subnav-list">
                     <li><a href="http://dahcr.ihp.sinica.edu.tw/article/" title="講論會系統(另開新視窗)" target="_blank">講論會系統</a></li>
-                    <li><a class="nowin" href="../service/service-01.html" title="會議室借用與查詢">會議室借用與查詢</a></li>
+                    <li><a href="../service/service-01.html" title="會議室借用與查詢">會議室借用與查詢</a></li>
                     <li><a href="../service/service-02.html" title="所內電話查詢">所內電話查詢</a></li>
-                    <li><a href="../service/service-03.html" title="財物資源共享平台">財物資源共享平台</a></li>
+                    <li><a class="nowin" href="../service/service-03.html" title="財物資源共享平台">財物資源共享平台</a></li>
                     <li><a href="http://www4.ihp.sinica.edu.tw/admin" title="經費查詢系統(另開新視窗)" target="_blank">經費查詢系統</a></li>
                     <li><a href="https://netask.ihp.sinica.edu.tw/" title="線上會簽系統(另開新視窗)" target="_blank">線上會簽系統</a></li>
                 </ul>
@@ -186,127 +186,91 @@
                     </div><!--//end #page-title-->
                 
                     <div id="page-main">
-                        <section id="box-booking">
-                            <div id="booking-pagelink"><!--選單在該類別時，添加class="now-select"-->
-                                <a class="mybtn now-select" href="../service/service-01-3.html" title="新增預約">新增預約</a>
-                                <a class="mybtn" href="../service/service-01.html" title="我的預約">我的預約</a>
-                                <a class="mybtn" href="../service/service-01-1.html" title="日">日</a>
-                                <a class="mybtn" href="../service/service-01-2.html" title="月">月</a>
+                        <section id="box-drives">
+                            <div id="drive-pagelink"><!--選單在該類別時，添加class="now-select"-->
+                                <a class="mybtn" href="../service/service-03-4.html" title="新增財物">新增財物</a>
+                                <a class="mybtn" href="../service/service-03.html" title="管理財物">管理財物</a>
+                                <a class="mybtn now-select" href="../service/service-03-2.html" title="借用財物">借用財物</a>
+                                <a class="mybtn" href="../service/service-03-3.html" title="閒置財物">閒置財物</a>
                             </div>
 
-                            <form action="#" method="post">
-                                <ul id="booking-list">
-                                    <li>
-                                        <label class="mylabel" for="meeting-room">會議室名稱：</label>
-                                        <select id="meeting-room" name="meeting-room" class="myselect">
-                                            <option>請選擇</option>
-                                            <option value="1">研究大樓701室</option>
-                                            <option value="2">研究大樓702室</option>
-                                            <option value="3">研究大樓703室</option>
-                                            <option value="4">研究大樓704室</option>
-                                            <option value="10">文物館B1</option>
-                                            <option value="8">文物館B1演講廳</option>
-                                            <option value="6">文物館5F會議室</option>
-                                            <option value="7">文物館5樓小圖</option>
-                                            <option value="13">文物館631會議室</option>
-                                            <option value="11">文物館632會議室</option>
-                                        </select>
-                                        <label class="mylabel mylabel-day" for="meeting-day">預約天數：</label>
-                                        <select id="meeting-day" name="meeting-day" class="myselect">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                        </select>
-                                    </li>
-                                    <li>
-                                        <label class="mylabel" for="meeting-date">預約時段1：</label>
-                                        <input id="meeting-date" type="date" name="meeting-date" class="myinput" value="">
-                                        <div class="meeting-time">
-                                            <label for="meeting-time-start">起</label>
-                                            <select id="meeting-time-start" name="meeting-time-start" class="myselect">
-                                                <option value="">--</option>
-                                                <option value="9">09:00</option>
-                                                <option value="10">10:00</option>
-                                                <option value="11">11:00</option>
-                                                <option value="12">12:00</option>
-                                                <option value="13">13:00</option>
-                                                <option value="14">14:00</option>
-                                                <option value="15">15:00</option>
-                                                <option value="16">16:00</option>
-                                                <option value="17">17:00</option>
-                                                <option value="18">18:00</option>
-                                                <option value="19">19:00</option>
-                                                <option value="20">20:00</option>
-                                                <option value="21">21:00</option>
-                                            </select>
-
-                                            <label for="meeting-time-end">訖</label>
-                                            <select id="meeting-time-end" name="meeting-time-end" class="myselect">
-                                                <option value="">--</option>
-                                                <option value="9">09:00</option>
-                                                <option value="10">10:00</option>
-                                                <option value="11">11:00</option>
-                                                <option value="12">12:00</option>
-                                                <option value="13">13:00</option>
-                                                <option value="14">14:00</option>
-                                                <option value="15">15:00</option>
-                                                <option value="16">16:00</option>
-                                                <option value="17">17:00</option>
-                                                <option value="18">18:00</option>
-                                                <option value="19">19:00</option>
-                                                <option value="20">20:00</option>
-                                                <option value="21">21:00</option>
-                                            </select>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <label class="mylabel" for="meeting-title">會議主題：</label>
-                                        <input id="meeting-title" name="meeting-title" type="text" class="myinput long-inputxt">
-                                    </li>
-                                    <li>
-                                        <label class="mylabel" for="meeting-contact">聯絡人：</label>
-                                        <input id="meeting-contact" name="meeting-contact" type="text" class="myinput long-inputxt">
-                                    </li>
-                                    <li>
-                                        <label class="mylabel" for="meeting-tel">電話或分機：</label>
-                                        <input id="meeting-tel" name="meeting-tel" type="text" class="myinput long-inputxt">
-                                    </li>
-                                    <li>
-                                        <h4 class="mylabel">使用設備：</h4>
-                                        <div class="check-list">
-                                            <input type="checkbox" id="device1" name="device1" value="紙筆">
-                                            <label for="device1">紙筆</label>
-                                            <input type="checkbox" id="device3" name="device3" value="投影機">
-                                            <label for="device3">投影機</label>
-                                            <input type="checkbox" id="device2" name="device2" value="錄音">
-                                            <label for="device2">錄音</label>
-                                            <input type="checkbox" id="device5" name="device5" value="錄影">
-                                            <label for="device5">錄影</label>
-                                            <span>（錄影僅文B1、研704、文5樓會議室提供）</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <h4 class="mylabel">事務室協助：</h4>
-                                        <div class="check-list">
-                                            <input type="radio" id="meeting-help1" name="meeting-help" value="yes">
-                                            <label for="meeting-help1">是</label>
-                                            <input type="radio" id="meeting-help2" name="meeting-help" value="no">
-                                            <label for="meeting-help2">否</label>
-                                            <span class="t-red">筆記型電腦、雷射筆請於會議前逕洽事務室(分機：248)登記借用。</span>
-                                        </div>
-                                    </li>
-                                    <li><label for="meeting-note" class="meeting-note">其他：</label>
-                                        <input id="meeting-note" name="meeting-note" type="text" class="myinput long-inputxt">
-                                    </li>
-                                </ul>
-
-                                <div id="formbtn">
-                                    <input type="button" class="mybtn" value="取消申請" onclick="location.href='service-01.html'"/>
-                                    <input type="button" class="mybtn catalog-send" value="送出申請" onclick="location.href='service-01.html'"/>
+                            <div id="drive-subtoolbar">
+                                <div id="toolbar-option">
+                                    <label for="drive-type">類別</label>
+                                    <select id="drive-type" name="drive-type" class="myselect">
+                                        <option>全部</option>
+                                        <option>家俱</option>
+                                        <option>電腦3C</option>
+                                        <option>軟體</option>
+                                        <option>家電類</option>
+                                        <option>文具用品</option>
+                                        <option>田野設備</option>
+                                        <option>會議設備</option>
+                                        <option>電腦相關書籍</option>
+                                    </select>
+                                    <label for="drive-subtype" class="hidden">類別</label>
+                                    <select id="drive-subtype" name="drive-subtype" class="myselect">
+                                        <option>-</option>
+                                        <option>書櫃</option>
+                                        <option>桌子</option>
+                                        <option>椅子</option>
+                                    </select>
                                 </div>
-                            </form>
+                                <div id="toolbar-search">
+                                    <label for="event-search">搜尋</label>
+                                    <input type="text" id="event-search" name="event-search" class="myinput inputxt" placeholder="請輸入關鍵字">
+                                    <input type="button" class="btn_send" value="查詢"/>
+                                </div>
+                            </div><!--//end #bulletin-toolbar-->
+
+                            <ul id="drive-toolbar">
+                                <li><a href="../service/service-03-2.html" title="刊登中22筆">刊登中<span>22</span>筆</a></li>
+                                <li><a href="../service/service-03-2-1.html" title="預約中1筆">預約中<span>1</span>筆</a></li>
+                                <li><a class="select" href="../service/service-03-2-2.html" title="以借用0筆">已借用<span>0</span>筆</a></li>
+                            </ul>
+
+
+                            <!--沒有內容時顯示此標語-->
+                            <div id="no-content">
+                                <h3>無財物紀錄。</h3>
+                            </div>
+
+                            <!-- <div id="drive-list">
+                                
+                                
+
+                                
+                            
+                            </div> -->
+
+                            <!--<div id="page-control">
+                                <div id="page-number">
+                                    <label for="event-page">位於第</label>
+                                    <select id="event-page" name="event-page" class="myselect">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                    頁/3頁，共有22筆資料
+                                </div>
+                                
+                                <div id="page-btn-left">
+                                    <a href="#" class="mybtn disabled" title="最前頁">最前頁</a>
+                                    <a href="#" class="mybtn disabled" title="上一頁">上一頁</a>
+                                </div>
+                                <div id="page-btn-right">
+                                    <a href="#"  class="mybtn" title="下一頁">下一頁</a>
+                                    <a href="#"  class="mybtn" title="最後頁">最後頁</a>
+                                </div>
+                            </div><!--//end #page-control-->
+
+                            <div id="drive-pop">
+                                <a href="../service/service-03-2-3.html" title="填寫申請表">
+                                    <i class="far fa-clipboard-list-check"></i>
+                                    <p>待申請 1 筆</p>
+                                </a>
+                            </div>
+                        
                         </section>
                     </div><!--//end #page-main-->
 

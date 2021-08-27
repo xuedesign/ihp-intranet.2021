@@ -845,7 +845,8 @@ summary.nowin{
     color: #581a23}
 #bulletin-toolbar,
 #phone-toolbar,
-#booking-toolbar{
+#booking-toolbar,
+#drive-subtoolbar{
     display: flex;
     justify-content: space-between;
     vertical-align: text-top;
@@ -855,6 +856,11 @@ summary.nowin{
     padding: 15px 0}
 #bulletin-toolbar{
     margin-top: 30px}
+#drive-subtoolbar{
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border: none}
+
 #booking-toolbar{
     margin-bottom: 30px}
 #phone-toolbar{
@@ -1902,7 +1908,8 @@ table.bt.bt--no-header tbody td::before {
     display: inline-block; 
     margin-left: -2rem}
 
-#booking-pagelink{ margin-bottom: 20px}
+#booking-pagelink,
+#drive-pagelink{ margin-bottom: 20px}
 /* .booking-title{ width:30%} */
 .booking-room{ width:20%}
 .booking-date,
@@ -2005,10 +2012,20 @@ table.bt.bt--no-header tbody td::before {
     font-size: 1.5rem;
     padding-left: 10px;}
 .t-red{color:#a12d3e;}
+#booking-list li label{
+    vertical-align:top}
+#booking-list textarea{
+    font-family: "Noto Sans TC";
+    font-weight: 400;
+    width: 46%;
+    resize: none}
 #booking-list li label::before,
 #booking-list h4::before{
     content:"*";
     color:#941E2D}
+#booking-list li label.nodot::before{
+    content: none;
+}
 #booking-list .meeting-time{ 
     display:inline-block;
     margin-left: 15px;}
@@ -2021,12 +2038,15 @@ table.bt.bt--no-header tbody td::before {
 #booking-list .check-list label::before{
     content:"";}
 .meeting-time label{ margin: 0 5px;}
+.box_fNumber{
+    display: inline-block;
+}
 #drive-toolbar{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
     width: 100%;
-    margin: 20px auto;
+    margin: 0 auto 20px auto;
     padding: 15px 0;
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1}
@@ -2135,6 +2155,46 @@ table.bt.bt--no-header tbody td::before {
         width: 80%;
         resize: none;
       }
+      #drive-pop{
+          display:block;
+          position: fixed;
+          top:30%;
+          right:3%;
+          width:60px;
+          height: 60px;
+          border-radius: 50%;
+          background: #A51C30;
+          text-align: center;
+      }
+      #drive-pop i{
+          font-size: 4rem;
+          line-height: 60px;
+          color: #fff;
+          margin-bottom: 8px;
+      }
+      #drive-pop a,
+      #drive-pop a:visited{
+        color: #333;
+        text-decoration: none;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+      }
+      #drive-pop a:hover{
+        color: #A51C30;
+        text-decoration: none;
+      }
+      #form-loaned label{
+          display: block;
+          margin-top: 15px;
+      }
+      #form-loaned input.mybtn{
+        display: block;
+        margin-top: 15px;
+       }
+      
+      
+
+
 
 @media all and (-ms-high-contrast:none) {
     nav{

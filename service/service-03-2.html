@@ -194,6 +194,35 @@
                                 <a class="mybtn" href="../service/service-03-3.html" title="閒置財物">閒置財物</a>
                             </div>
 
+                            <div id="drive-subtoolbar">
+                                <div id="toolbar-option">
+                                    <label for="drive-type">類別</label>
+                                    <select id="drive-type" name="drive-type" class="myselect">
+                                        <option>全部</option>
+                                        <option>家俱</option>
+                                        <option>電腦3C</option>
+                                        <option>軟體</option>
+                                        <option>家電類</option>
+                                        <option>文具用品</option>
+                                        <option>田野設備</option>
+                                        <option>會議設備</option>
+                                        <option>電腦相關書籍</option>
+                                    </select>
+                                    <label for="drive-subtype" class="hidden">類別</label>
+                                    <select id="drive-subtype" name="drive-subtype" class="myselect">
+                                        <option>-</option>
+                                        <option>書櫃</option>
+                                        <option>桌子</option>
+                                        <option>椅子</option>
+                                    </select>
+                                </div>
+                                <div id="toolbar-search">
+                                    <label for="event-search">搜尋</label>
+                                    <input type="text" id="event-search" name="event-search" class="myinput inputxt" placeholder="請輸入關鍵字">
+                                    <input type="button" class="btn_send" value="查詢"/>
+                                </div>
+                            </div><!--//end #bulletin-toolbar-->
+
                             <ul id="drive-toolbar">
                                 <li><a class="select" href="../service/service-03-2.html" title="刊登中22筆">刊登中<span>22</span>筆</a></li>
                                 <li><a href="../service/service-03-2-1.html" title="預約中1筆">預約中<span>1</span>筆</a></li>
@@ -425,6 +454,35 @@
 
                                 </div>
 
+                            </div>
+
+                            <div id="page-control">
+                                <div id="page-number">
+                                    <label for="event-page">位於第</label>
+                                    <select id="event-page" name="event-page" class="myselect">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                    頁/3頁，共有22筆資料
+                                </div>
+                                
+                                <!---css增加'disabled'表示該按鈕無效，通常在第一頁及最後一頁使用-->
+                                <div id="page-btn-left">
+                                    <a href="#" class="mybtn disabled" title="最前頁">最前頁</a>
+                                    <a href="#" class="mybtn disabled" title="上一頁">上一頁</a>
+                                </div>
+                                <div id="page-btn-right">
+                                    <a href="#"  class="mybtn" title="下一頁">下一頁</a>
+                                    <a href="#"  class="mybtn" title="最後頁">最後頁</a>
+                                </div>
+                            </div><!--//end #page-control-->
+
+                            <div id="drive-pop">
+                                <a href="../service/service-03-2-3.html" title="填寫申請表">
+                                    <i class="far fa-clipboard-list-check"></i>
+                                    <p>待申請 1 筆</p>
+                                </a>
                             </div>
                         
                         </section>
