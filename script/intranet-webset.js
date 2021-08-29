@@ -75,3 +75,6 @@ loadjs(['https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min
 
 //fontawesome
 loadjs("https://kit.fontawesome.com/daece105d8.js");
+
+//借出審核
+$(function(){$(".mytext11").hide(),$(".chk2").click(function(){2==$(this).val()?$(".mytext11").slideDown():$(".mytext11").slideUp()})});

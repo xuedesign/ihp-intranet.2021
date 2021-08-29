@@ -973,6 +973,10 @@
         width: 100%;
         resize: none;
     }
+    .check-list2 textarea{
+        width: 70%;
+        resize: none;
+    }
     .mytextarea input,
     #form-loaned .mybtn{
         display: block;
@@ -984,7 +988,8 @@
         display: block;
         margin-top: 8px;
     }
-    #booking-list textarea{
+    #booking-list textarea,
+    #drive-list textarea{
         width: 80%;
         resize: none}
 }

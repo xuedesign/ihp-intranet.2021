@@ -2117,11 +2117,13 @@ table.bt.bt--no-header tbody td::before {
         border-left: 1px solid #e1e1e1;
     }
     #drive-list .drive-info2 input.mybtn,
-    #drive-list .drive-info2 label.mybtn{
+    #drive-list .drive-info2 label.mybtn,
+    #drive-list .check-list2 input.mybtn{
         display:block;
         width: 80%;
         margin-top: 15px;
         font-weight: 300;
+        cursor: pointer;
     }
     #drive-list .drive-info2 input.mybtn{
         background: #fff;
@@ -2191,6 +2193,10 @@ table.bt.bt--no-header tbody td::before {
         display: block;
         margin-top: 15px;
        }
+       #drive-list textarea{
+        resize: none}
+       
+       
       
       
 

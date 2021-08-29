@@ -227,6 +227,7 @@
                                     </ul>
 
                                     <div class="drive-info2">
+                                        <form action="#" method="post">
                                         <ul>
                                             <li><span>借用人員：</span>系統管理員</li>
                                             <li><span>分機：</span>#695</li>
@@ -234,15 +235,17 @@
                                             <li><span>使用時間：</span>1個月</li>
                                             <li><span>借用事由：</span>管理員測試</li>
                                         </ul>
-                                        <form action="#" method="post">
-                                            <input class="mybtn" type="button" value="同意借出"/>
-                                            <label class="mybtn" for="checkbox">拒絕借出</label>
-                                            <input id="checkbox" type="checkbox"/>
-                                            <div class="mytextarea">
-                                                <textarea name="mytext" rows="5" required placeholder="拒絕原因(必填)"></textarea>
-                                                <input type="button" class=mybtn" value="送出"/>
-                                            </div>
-                                                
+                                        <label for=""></label>
+                                        <h4>是否借出：</h4>
+                                        <div class="check-list2">
+                                            <input type="radio" id="type1" name="type" value="1" class="chk2">
+                                            <label for="type1">同意借出</label>
+                                            <br>
+                                            <input type="radio" id="type2" name="type" value="2" class="chk2">
+                                            <label for="type2">拒絕借出</label>
+                                            <textarea id="mytext" class="mytext11" name="mytext" rows="5" required placeholder="拒絕原因(必填)"></textarea>
+                                        </div>
+                                        <input type="button" class="mybtn" value="送出"/>
                                         </form>
                                     </div>
 
