@@ -1040,10 +1040,10 @@ summary.nowin{
 #bulletin-article ul,
 #bulletin-article ol{
     margin: 0 0 0 25px}
-#bulletin-article ul li{
+/* #bulletin-article ul li{
     list-style: disc}
-#bulletin-article ol li{
-    list-style: decimal}
+#bulletin-article ol li li{
+    list-style: decimal} */
 #bulletin-annex h4::before{
     content:url(../images/pot-download.svg);
     vertical-align: middle;
