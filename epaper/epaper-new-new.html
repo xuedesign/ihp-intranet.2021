@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>中研院史語所電子報</title>
 <style>
     html,table, caption, tbody, tfoot, thead, tr, th, td{
@@ -12,36 +13,43 @@
         -moz-box-sizing: border-box;
         box-sizing: border-box}
     body{
-        font-size:62.5%; 
         width: 100%;
         margin:0;
         padding:0;
         font-family:'Microsoft JhengHei','PingFangTC-Regular', 'Arial', 'Helvetica', sans-serif}
-    image{ border:0; margin:0; padding:0}
+    image{ 
+        border:0; 
+        margin:0; 
+        padding:0}
     table {	border-collapse: collapse; border-spacing: 0}
     .banner-hero{
-        /*background-image: url(https://xuedesign.github.io/ihp-intranet.2021/images/epaper/e-banner2.png); 
+        background-image: url(https://xuedesign.github.io/ihp-intranet.2021/images/epaper/e-banner.png); 
         background-repeat: no-repeat; 
-        background-size: contain;*/
         background-size: cover;
-        margin: 0; padding: 0
+        margin: 0; 
+        padding: 0
     }
     .banner-main{
         height:213px;
         text-align: right; 
-        /* padding-right: 20px; 
-        padding-top: 70px; */
+        padding-right: 20px; 
+        padding-top: 45px
     }
     h2{
         /* font-size: 1rem;  */
-        color:#333
+        font-size: 100%;
+        color:#333;
+        text-shadow: 0 0 5px rgb(255, 255, 255);
+        -webkit-text-shadow: 0 0 5px rgb(255, 255, 255);
     }
-    h2 span{ /* font-size: 2rem */}
-    @media (max-width: 455px) {
+    h2 span{ 
+        font-size: 200%;
+        /* font-size: 2rem */}
+    /* @media (max-width: 455px) {
         .banner-main{height: 131px}
         h2{ font-size: 13px}
         h2 span{ font-size:20px}
-    } 
+    }  */
 </style>
 </head>
 
@@ -51,11 +59,11 @@
         <!--電子報標頭-->
         <tr class="banner-hero">
             <td class="banner-main">
-                <!-- <h1 style="display: none;">中央研究院歷史語言研究所-電子報</h1>
+                <h1 style="display: none;">中央研究院歷史語言研究所-電子報</h1>
                 <h2>NO. 
                 <span>201</span><br>
-                出刊日：2021-09-03</h2> -->
-                <img src="https://xuedesign.github.io/ihp-intranet.2021/images/epaper/e-banner3.png" alt="*">
+                出刊日：2021-09-03</h2>
+                <!-- <img src="https://xuedesign.github.io/ihp-intranet.2021/images/epaper/e-banner2.png" alt="*"> -->
             </td>
         </tr>
 
